@@ -33,18 +33,13 @@ export default function Header(){
           </NavLink>
 
           <NavLink 
-            to="mywork/"
+            to="/mywork"
             style={({ isActive }) => (isActive ? activeStyles : null)}
           >
             My Work
           </NavLink>
 
-          <NavLink 
-            to="/project"
-            style={({ isActive }) => (isActive ? activeStyles : null)}
-          >
-            Projects
-          </NavLink>
+          
         </nav>
       </header>
     )
