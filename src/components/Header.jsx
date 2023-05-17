@@ -1,8 +1,13 @@
-import {Link} from 'react-router-dom'
+import {Link, NavLink} from 'react-router-dom'
 import devJane from '../assets/devjane.png'
 
 
 export default function Header(){
+  const activeStyles = {
+    fontWeight: 'bold',
+    textDecoration: 'underline',
+    color: '#161616',
+  }
 
     return (
       <header>
@@ -13,10 +18,33 @@ export default function Header(){
         </div>
 
         <nav>
-          <Link to="/myservices">My Services</Link>
-          <Link to="/aboutme">About Me</Link>
-          <Link to="mywork/">My Work</Link>
-          <Link to="/project">Projects</Link>
+          <NavLink 
+            to="/myservices"
+            style={({ isActive }) => (isActive ? activeStyles : null)}
+          >
+            My Services
+          </NavLink>
+
+          <NavLink 
+            to="/aboutme"
+            style={({ isActive }) => (isActive ? activeStyles : null)}
+          >
+            About Me
+          </NavLink>
+
+          <NavLink 
+            to="mywork/"
+            style={({ isActive }) => (isActive ? activeStyles : null)}
+          >
+            My Work
+          </NavLink>
+
+          <NavLink 
+            to="/project"
+            style={({ isActive }) => (isActive ? activeStyles : null)}
+          >
+            Projects
+          </NavLink>
         </nav>
       </header>
     )

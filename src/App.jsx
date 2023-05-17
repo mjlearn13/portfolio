@@ -11,17 +11,17 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout/>}>
-          <Route index element={<Introduction/>} />
-          <Route path="myservices" element={<MyServices/>} />
-          <Route path="aboutme" element={<AboutMe/>} />
-          <Route path="mywork" element={<MyWorkLayout/>}>
-            <Route index element={<MyWork/>} />
-            <Route path="javaScript" element={<MyWork/>} />
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Introduction />} />
+          <Route path="myservices" element={<MyServices />} />
+          <Route path="aboutme" element={<AboutMe />} />
+          <Route path="mywork" element={<MyWorkLayout />}>
+            <Route index element={<MyWork />} />
+            <Route path="react" element={<MyWork />} />
+            <Route path="javaScript" element={<MyWork />} />
           </Route>
 
-
-          <Route path="project" element={<Project/>} />
+          <Route path="project" element={<Project />} />
         </Route>
       </Routes>
     </BrowserRouter>
