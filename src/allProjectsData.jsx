@@ -9,7 +9,7 @@ import speedTypingGame from '../src/assets/speedTypingGame.png'
 import tenziesSquare from '../src/assets/tenzies-square.png'
 import tenzies from '../src/assets/tenzies.png'
 
-const allProjectData = [
+export default  [
   {
     id: '1',
     name: 'van-life',
@@ -57,4 +57,3 @@ const allProjectData = [
   },
 ]
 
-export {allProjectData}

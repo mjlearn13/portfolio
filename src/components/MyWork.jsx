@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom'
-import {allProjectData} from '../allProjectsData'
+import allProjectData from '../allProjectsData'
 
 
 export default function MyWork(){
