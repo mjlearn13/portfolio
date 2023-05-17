@@ -1,17 +1,18 @@
 import {Link} from 'react-router-dom'
-import allProjectData from '../allProjectsData'
+import {allProjectData} from '../allProjectsData'
 
 
 export default function MyWork(){
-    const allProjectElements = allProjectData.map(project => (
-      <Link 
+    const allProjectElements = allProjectData.map(project => {
+      console.log(project)
+      return <Link 
          to={`/myWork/${project.id}`}
          key={project.id}
          className="portfolio__item"
         >
          <img src={project.imageSquare} alt="" className="portfolio__img" />
       </Link>
-    ))
+    })
 
     return (
          <section className="my-work" id="work">
