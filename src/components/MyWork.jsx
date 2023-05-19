@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom'
+import {Link, NavLink} from 'react-router-dom'
 import allProjectData from '../allProjectsData'
 
 
@@ -14,18 +14,39 @@ export default function MyWork(){
       </Link>
     })
 
-    return (
-         <section className="my-work" id="work">
-            <h2 className="section__title section__title--work">My projects</h2>
-            <p className="section__subtitle section__subtitle--work">A selection of my range of work</p>
-            
-            <div className="portfolio">
-               
-               {allProjectElements}
-                
+     const activeStyles = {
+       fontWeight: 'bold',
+       textDecoration: 'underline',
+       color: '#161616',
+     }
 
-            </div>
-        </section>
+    return (
+      <section className="my-work" id="work">
+        <h2 className="section__title section__title--work">My projects</h2>
+        <p className="section__subtitle section__subtitle--work">
+          A selection of my range of work
+        </p>
+
+        <nav>
+         
+
+          <NavLink
+            to="react"
+            style={({ isActive }) => (isActive ? activeStyles : null)}
+          >
+            React
+          </NavLink>
+
+          <NavLink
+            to="javaScript"
+            style={({ isActive }) => (isActive ? activeStyles : null)}
+          >
+            JavaScript
+          </NavLink>
+        </nav>
+
+        <div className="portfolio">{allProjectElements}</div>
+      </section>
     )
 }
 

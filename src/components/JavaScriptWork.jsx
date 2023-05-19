@@ -1,5 +1,17 @@
+import { Link } from 'react-router-dom'
+
 export default function JavaScriptWork(){
     return (
-        <h1>Javascriptwork</h1>
+        <>
+            <Link 
+                to=".." 
+                relative="path"
+                className="back-button"
+            >
+                &larr; <span>Back to all projects</span>
+            </Link>
+        
+            <h1>Javascriptwork</h1>
+        </>
     )
 }

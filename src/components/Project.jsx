@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
 import allProjectsData from '../allProjectsData'
 
 
@@ -8,6 +8,14 @@ export default function Project() {
     
   return (
     <>
+      <Link 
+        to=".." 
+        relative="path"
+        className="back-button"
+      >
+        &larr; <span>Back to projects</span>
+      </Link>
+
       <section className="intro portfolio-intro">
         <h1 className="section__title section__title--intro">
           {currentProject.name}
@@ -21,10 +29,20 @@ export default function Project() {
 
       <div className="portfolio-item-individual">
         <div>
-          <a className="" target="_blank" rel="noreferrer" href={currentProject.github}>
+          <a
+            className=""
+            target="_blank"
+            rel="noreferrer"
+            href={currentProject.github}
+          >
             <i className="fab fa-github"></i> GitHub Repo
           </a>
-          <a className="" target="_blank" rel="noreferrer" href={currentProject.url}>
+          <a
+            className=""
+            target="_blank"
+            rel="noreferrer"
+            href={currentProject.url}
+          >
             <i className="fas fa-eye"></i> Live version{' '}
           </a>
         </div>
