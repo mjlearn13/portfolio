@@ -7,6 +7,7 @@ export default function Header(){
     fontWeight: 'bold',
     textDecoration: 'underline',
     color: '#161616',
+    
   }
 
     return (

@@ -4,7 +4,6 @@ import allProjectData from '../allProjectsData'
 
 export default function MyWork(){
     const allProjectElements = allProjectData.map(project => {
-      console.log(project)
       return <Link 
          to={`/myWork/${project.id}`}
          key={project.id}
@@ -21,7 +20,7 @@ export default function MyWork(){
      }
 
     return (
-      <section className="my-work" id="work">
+      <section className="my-work">
         <h2 className="section__title section__title--work">My projects</h2>
         <p className="section__subtitle section__subtitle--work">
           A selection of my range of work
