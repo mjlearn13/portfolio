@@ -5,8 +5,7 @@ import MyServices from './components/MyServices'
 import MyWork from './components/MyWork'
 import Project from './components/Project'
 import Layout from './components/Layout'
-import ReactWork from './components/ReactWork'
-import JavaScriptWork from './components/JavaScriptWork'
+
 
 function App() {
   return (
@@ -18,8 +17,6 @@ function App() {
           <Route path="aboutme" element={<AboutMe />} />
           <Route path="mywork" element={<MyWork />}/>
           <Route path="mywork/:id" element={<Project />} />
-          <Route path="mywork/react" element={<ReactWork />} />
-          <Route path="mywork/javaScript" element={<JavaScriptWork />} />
         </Route>
       </Routes>
     </BrowserRouter>
