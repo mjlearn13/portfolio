@@ -1,11 +1,18 @@
-import {Link, NavLink, useOutletContext} from 'react-router-dom'
-
+import {Link, NavLink, useSearchParams} from 'react-router-dom'
+import allProjectsData from '../allProjectsData'
 
 
 export default function MyWork(){
-  const {allData} = useOutletContext()
+  const [searchParams] = useSearchParams()
 
-  const allProjectElements = allData.map(project => {
+  const typeFilter = searchParams.get("type")
+
+  const displayedProjects = typeFilter
+    ? allProjectsData.filter(
+        (project) => project.type.toLowerCase() === typeFilter)
+    : allProjectsData
+
+  const projectElements = displayedProjects.map(project => {
     return <Link 
         to={`/myWork/${project.id}`}
         key={project.id}
@@ -29,24 +36,28 @@ export default function MyWork(){
       </p>
 
       <nav>
-        
-
         <NavLink
-          to="react"
+          to="?type=react"
           style={({ isActive }) => (isActive ? activeStyles : null)}
         >
           React
         </NavLink>
 
         <NavLink
-          to="javaScript"
+          to="?type=javascript"
           style={({ isActive }) => (isActive ? activeStyles : null)}
         >
           JavaScript
         </NavLink>
-      </nav>
 
-      <div className="portfolio">{allProjectElements}</div>
+        <NavLink
+          to="."
+          style={({ isActive }) => (isActive ? activeStyles : null)}
+        >
+          All
+        </NavLink>
+      </nav>
+      <div className="portfolio">{projectElements}</div>
     </section>
   )
 }

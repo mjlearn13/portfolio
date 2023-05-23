@@ -324,7 +324,7 @@ nav a:hover {
 }
 
 .portfolio__item {
-    background: var(--color-accent);
+    border-radius: 7px;
     overflow: hidden;
 
 }

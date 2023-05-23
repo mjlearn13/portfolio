@@ -1,11 +1,10 @@
-import { useParams, Link, useOutletContext } from 'react-router-dom'
-
+import { useParams, Link} from 'react-router-dom'
+import allProjectsData from '../allProjectsData'
 
 
 export default function Project() {
-    const {allData} = useOutletContext()
     const {id} = useParams()
-    const currentProject = allData.find(project => project.id === id)
+    const currentProject = allProjectsData.find(project => project.id === id)
     
   return (
     <>

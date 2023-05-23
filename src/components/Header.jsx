@@ -39,8 +39,6 @@ export default function Header(){
           >
             My Work
           </NavLink>
-
-          
         </nav>
       </header>
     )
