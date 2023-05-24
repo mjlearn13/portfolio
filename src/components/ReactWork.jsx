@@ -8,7 +8,7 @@ export default function ReactWork() {
   const reactProjectsElements = reactProjects.map((project) => {
     return (
       <Link
-        to={`/myWork/${project.id}`}
+        to={project.id}
         key={project.id}
         className="portfolio__item"
       >

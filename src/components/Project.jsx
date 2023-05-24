@@ -1,19 +1,21 @@
-import { useParams, Link} from 'react-router-dom'
+import { useParams, Link, useLocation} from 'react-router-dom'
 import allProjectsData from '../allProjectsData'
 
 
 export default function Project() {
     const {id} = useParams()
+    const location = useLocation()
     const currentProject = allProjectsData.find(project => project.id === id)
-    
+    const search = location.state?.search || ""
+    const type = location.state?.type || "all"
   return (
     <>
       <Link 
-        to=".." 
+        to={`..${search}`}
         relative="path"
         className="back-button"
       >
-        &larr; <span>Back to projects</span>
+        &larr; <span>Back to {type} projects</span>
       </Link>
 
       <section className="intro portfolio-intro">

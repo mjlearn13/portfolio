@@ -1,9 +1,9 @@
-import {Link, NavLink, useSearchParams} from 'react-router-dom'
+import {Link, useSearchParams} from 'react-router-dom'
 import allProjectsData from '../allProjectsData'
 
 
 export default function MyWork(){
-  const [searchParams] = useSearchParams()
+  const [searchParams, setSearchParams] = useSearchParams()
 
   const typeFilter = searchParams.get("type")
 
@@ -13,20 +13,17 @@ export default function MyWork(){
     : allProjectsData
 
   const projectElements = displayedProjects.map(project => {
-    return <Link 
-        to={`/myWork/${project.id}`}
+    return (
+      <Link
+        to={project.id}
+        state={{ search: `?${searchParams.toString()}`, type: typeFilter }}
         key={project.id}
         className="portfolio__item"
       >
         <img src={project.imageSquare} alt="" className="portfolio__img" />
-    </Link>
+      </Link>
+    )
   })
-
-    const activeStyles = {
-      fontWeight: 'bold',
-      textDecoration: 'underline',
-      color: '#161616',
-    }
 
   return (
     <section className="my-work">
@@ -35,28 +32,32 @@ export default function MyWork(){
         A selection of my range of work
       </p>
 
-      <nav>
-        <NavLink
-          to="?type=react"
-          style={({ isActive }) => (isActive ? activeStyles : null)}
+      <div className='projects-filter-buttons'>
+        <button
+          onClick={() => setSearchParams({type: "react"})}
+          className={
+            `btn project-type react ${typeFilter === "react" ? "selected" : ""}`
+          }
         >
           React
-        </NavLink>
+        </button>
 
-        <NavLink
-          to="?type=javascript"
-          style={({ isActive }) => (isActive ? activeStyles : null)}
+        <button
+          onClick={() => setSearchParams({type: "javascript"})}
+          className={
+            `btn project-type javascript ${typeFilter === "javascript" ? "selected" : ""}`
+          }
         >
           JavaScript
-        </NavLink>
+        </button>
 
-        <NavLink
-          to="."
-          style={({ isActive }) => (isActive ? activeStyles : null)}
+        {typeFilter && <button
+          onClick={() => setSearchParams({})}
+          className='btn project-type clear-filters'
         >
           All
-        </NavLink>
-      </nav>
+        </button>}
+      </div>
       <div className="portfolio">{projectElements}</div>
     </section>
   )
