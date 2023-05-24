@@ -5,6 +5,7 @@ import MyServices from './components/MyServices'
 import MyWork from './components/MyWork'
 import Project from './components/Project'
 import Layout from './components/Layout'
+import NotFound from './components/NotFound'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="aboutme" element={<AboutMe />} />
           <Route path="mywork" element={<MyWork />}/>
           <Route path="mywork/:id" element={<Project />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </BrowserRouter>
