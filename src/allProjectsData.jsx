@@ -1,3 +1,4 @@
+import { nanoid } from 'nanoid'
 import vanLifeSquare from '../src/assets/vanlife-square.png'
 import vanLife from '../src/assets/vanlife.png'
 import notesAppSquare from '../src/assets/notes-app-square.png'
@@ -44,7 +45,7 @@ import password from '../src/assets/password.png'
 
 export default [
   {
-    id: '1',
+    id: nanoid(),
     name: 'VANLIFE',
     url: 'https://inquisitive-zuccutto-886fd5.netlify.app/',
     imageSquare: vanLifeSquare,
@@ -84,7 +85,7 @@ export default [
     ],
   },
   {
-    id: '2',
+    id: nanoid(),
     name: 'Notes',
     url: 'https://voluble-brioche-cf4ae0.netlify.app/',
     imageSquare: notesAppSquare,
@@ -95,7 +96,7 @@ export default [
     topics: [],
   },
   {
-    id: '3',
+    id: nanoid(),
     name: 'Pic Some',
     url: 'https://deluxe-churros-f1e05b.netlify.app/',
     imageSquare: picSomeSquare,
@@ -106,7 +107,7 @@ export default [
     topics: [],
   },
   {
-    id: '4',
+    id: nanoid(),
     name: 'Speed Typing',
     url: 'https://idyllic-cascaron-fc1a88.netlify.app/',
     imageSquare: speedTypingGameSquare,
@@ -117,7 +118,7 @@ export default [
     topics: [],
   },
   {
-    id: '5',
+    id: nanoid(),
     name: 'Tenzies',
     url: 'https://fastidious-chaja-ae6f30.netlify.app/',
     imageSquare: tenziesSquare,
@@ -128,7 +129,7 @@ export default [
     topics: [],
   },
   {
-    id: '6',
+    id: nanoid(),
     name: 'Meme Generator',
     url: 'https://benevolent-begonia-d8c730.netlify.app/',
     imageSquare: memeGenerator,
@@ -139,7 +140,7 @@ export default [
     topics: [],
   },
   {
-    id: '7',
+    id: nanoid(),
     name: 'Twimba',
     url: 'https://mjlearn13.github.io/twitter-clone/',
     imageSquare: twimbaSquare,
@@ -150,7 +151,7 @@ export default [
     topics: [],
   },
   {
-    id: '8',
+    id: nanoid(),
     name: 'Splash',
     url: 'https://mjlearn13.github.io/splash-page/',
     imageSquare: splashSquare,
@@ -161,7 +162,7 @@ export default [
     topics: ['DOM Basics'],
   },
   {
-    id: '9',
+    id: nanoid(),
     name: 'Paint Clone',
     url: 'https://mjlearn13.github.io/paint-clone/',
     imageSquare: paint,
@@ -172,7 +173,7 @@ export default [
     topics: ['Advanced HTML Canvas', 'localStorage'],
   },
   {
-    id: '10',
+    id: nanoid(),
     name: 'Kanban',
     url: 'https://mjlearn13.github.io/drag-and-drop/',
     imageSquare: dragSquare,
@@ -183,7 +184,7 @@ export default [
     topics: [],
   },
   {
-    id: '11',
+    id: nanoid(),
     name: 'Calculator',
     url: 'https://mjlearn13.github.io/calculator/',
     imageSquare: calculator,
@@ -194,7 +195,7 @@ export default [
     topics: ['Math Methods'],
   },
   {
-    id: '12',
+    id: nanoid(),
     name: 'Math Sprint Game',
     url: 'https://mjlearn13.github.io/math-sprint-game/',
     imageSquare: math,
@@ -205,7 +206,7 @@ export default [
     topics: ['SetInterval', 'DOM', 'Array Methods', 'localStorage'],
   },
   {
-    id: '13',
+    id: nanoid(),
     name: 'Nasa Api Pictures',
     url: 'https://mjlearn13.github.io/nasa-api-pictures/',
     imageSquare: nasaSquare,
@@ -216,7 +217,7 @@ export default [
     topics: ['Fetch', 'Async/Await', 'NASA API', 'DOM', 'localStorage'],
   },
   {
-    id: '14',
+    id: nanoid(),
     name: 'Spock Rock',
     url: 'https://mjlearn13.github.io/spock-rock-game/',
     imageSquare: spockSquare,
@@ -227,7 +228,7 @@ export default [
     topics: ['Confetti.js', 'Modules'],
   },
   {
-    id: '15',
+    id: nanoid(),
     name: 'Pong',
     url: 'https://mjlearn13.github.io/pong/',
     imageSquare: pong,
@@ -238,7 +239,7 @@ export default [
     topics: ['Advanced HTML Canvas'],
   },
   {
-    id: '16',
+    id: nanoid(),
     name: 'Video Player',
     url: 'https://mjlearn13.github.io/video-player/',
     imageSquare: video,
@@ -249,7 +250,7 @@ export default [
     topics: ['HTML 5 Video API'],
   },
   {
-    id: '17',
+    id: nanoid(),
     name: 'Animated Navigation',
     url: 'https://mjlearn13.github.io/animated-navigation/',
     imageSquare: navigation,
@@ -260,7 +261,7 @@ export default [
     topics: ['CSS Animations'],
   },
   {
-    id: '18',
+    id: nanoid(),
     name: 'Animated Template',
     url: 'https://mjlearn13.github.io/animated-template/',
     imageSquare: template,
@@ -271,7 +272,7 @@ export default [
     topics: ['Template', 'AOS.js'],
   },
   {
-    id: '19',
+    id: nanoid(),
     name: 'Infinite Scroll',
     url: 'https://mjlearn13.github.io/infinite-scroll/',
     imageSquare: infinite,
@@ -289,7 +290,7 @@ export default [
     ],
   },
   {
-    id: '20',
+    id: nanoid(),
     name: 'Joke Teller',
     url: 'https://mjlearn13.github.io/joke-teller/',
     imageSquare: joke,
@@ -300,7 +301,7 @@ export default [
     topics: ['Fetch', 'Async/Await', 'Joke API', 'Text-to-Speech'],
   },
   {
-    id: '21',
+    id: nanoid(),
     name: 'Bookmark',
     url: 'https://mjlearn13.github.io/bookmark-app/',
     imageSquare: bookmark,
@@ -311,7 +312,7 @@ export default [
     topics: ['DOM', 'localStorage'],
   },
   {
-    id: '22',
+    id: nanoid(),
     name: 'Custom Countdown',
     url: 'https://mjlearn13.github.io/custom-countdown/',
     imageSquare: countdown,
@@ -322,7 +323,7 @@ export default [
     topics: ['Date', 'localStorage'],
   },
   {
-    id: '23',
+    id: nanoid(),
     name: 'Form Validation',
     url: 'https://mjlearn13.github.io/form-validation/',
     imageSquare: form,
@@ -333,7 +334,7 @@ export default [
     topics: ['DOM', 'Forms'],
   },
   {
-    id: '24',
+    id: nanoid(),
     name: 'Basketball Scorecard',
     url: 'https://mjlearn13.github.io/basketball-scorecard/',
     imageSquare: basketball,
@@ -344,7 +345,7 @@ export default [
     topics: [],
   },
   {
-    id: '25',
+    id: nanoid(),
     name: 'Light/Dark Mode',
     url: 'https://mjlearn13.github.io/light-dark-mode/',
     imageSquare: mode,
@@ -355,7 +356,7 @@ export default [
     topics: ['DOM', 'localStorage'],
   },
   {
-    id: '26',
+    id: nanoid(),
     name: 'Music Player',
     url: 'https://mjlearn13.github.io/music-player/',
     imageSquare: music,
@@ -366,7 +367,7 @@ export default [
     topics: ['HTML 5 Audio API'],
   },
   {
-    id: '27',
+    id: nanoid(),
     name: 'Picture In Picture',
     url: 'https://mjlearn13.github.io/picture-in-picture/',
     imageSquare: picture,
@@ -377,7 +378,7 @@ export default [
     topics: ['Picture-in-Picture API', 'Screen Capture API'],
   },
   {
-    id: '28',
+    id: nanoid(),
     name: 'Quote Generator',
     url: 'https://mjlearn13.github.io/quote-generator/',
     imageSquare: quote,
@@ -388,7 +389,7 @@ export default [
     topics: ['Fetch', 'Async/Await', 'Quote API', 'CORS'],
   },
   {
-    id: '29',
+    id: nanoid(),
     name: 'Dashboard',
     url: 'https://mjlearn13.github.io/dashboard/',
     imageSquare: dashboard,
@@ -399,7 +400,7 @@ export default [
     topics: [],
   },
   {
-    id: '30',
+    id: nanoid(),
     name: 'Lead Tracker',
     url: 'https://mjlearn13.github.io/lead-tracker/',
     imageSquare: lead,
@@ -410,7 +411,7 @@ export default [
     topics: [],
   },
   {
-    id: '31',
+    id: nanoid(),
     name: 'Password Generator',
     url: 'https://mjlearn13.github.io/password-generator/',
     imageSquare: password,
