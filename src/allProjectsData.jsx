@@ -51,6 +51,37 @@ export default [
     image: vanLife,
     type: 'React',
     github: 'https://github.com/mjlearn13/van-life.git',
+    desc: 'VanLife is a single page web app for renting decked-out travel vans for your next road trip adventure!  It is built using React    Router v6, the most popular routing library for React applications and one of the most downloaded React support libraries ever. It was built as a part of Scrimbas Frontend Developer Career Path.',
+    topics: [
+      'Basic router setup',
+      'Route',
+      'Link',
+      'Route parameters',
+      'Nested routes and Outlet',
+      'Layout and Index routes',
+      'Relative paths',
+      'NavLink',
+      'Outlet context',
+      'Search parameters',
+      'Link state',
+      '404 pageSplat routes',
+      'Loaders',
+      'Actions',
+      'Form & form data',
+      'defer( )',
+      'Await',
+      'Suspense',
+      'Error handling & errorElement',
+      'useRouteError',
+      'useNavigate',
+      'useNavigation',
+      'useLocation',
+      'useLoaderData',
+      'useActionData',
+      'Protected Routes',
+      'Deploying with Netlify',
+      'Using Firebase for data storage',
+    ],
   },
   {
     id: '2',
@@ -60,6 +91,8 @@ export default [
     image: notesApp,
     type: 'React',
     github: 'https://github.com/mjlearn13/notes-app.git',
+    desc: '',
+    topics: [],
   },
   {
     id: '3',
@@ -69,6 +102,8 @@ export default [
     image: picSome,
     type: 'React',
     github: 'https://github.com/mjlearn13/pic-some.git',
+    desc: '',
+    topics: [],
   },
   {
     id: '4',
@@ -78,6 +113,8 @@ export default [
     image: speedTypingGame,
     type: 'React',
     github: 'https://github.com/mjlearn13/speedTypingGame.git',
+    desc: '',
+    topics: [],
   },
   {
     id: '5',
@@ -87,6 +124,8 @@ export default [
     image: tenzies,
     type: 'React',
     github: 'https://github.com/mjlearn13/tenzies.git',
+    desc: '',
+    topics: [],
   },
   {
     id: '6',
@@ -96,6 +135,8 @@ export default [
     image: memeGenerator,
     type: 'React',
     github: 'https://github.com/mjlearn13/meme-generator.git',
+    desc: '',
+    topics: [],
   },
   {
     id: '7',
@@ -105,6 +146,8 @@ export default [
     image: twimba,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/twitter-clone.git',
+    desc: '',
+    topics: [],
   },
   {
     id: '8',
@@ -114,6 +157,8 @@ export default [
     image: splash,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/splash-page.git',
+    desc: '',
+    topics: ['DOM Basics'],
   },
   {
     id: '9',
@@ -123,6 +168,8 @@ export default [
     image: paint,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/paint-clone.git',
+    desc: '',
+    topics: ['Advanced HTML Canvas', 'localStorage'],
   },
   {
     id: '10',
@@ -132,6 +179,8 @@ export default [
     image: drag,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/drag-and-drop.git',
+    desc: '',
+    topics: [],
   },
   {
     id: '11',
@@ -141,6 +190,8 @@ export default [
     image: calculator,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/calculator.git',
+    desc: '',
+    topics: ['Math Methods'],
   },
   {
     id: '12',
@@ -150,6 +201,8 @@ export default [
     image: math,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/math-sprint-game.git',
+    desc: '',
+    topics: ['SetInterval', 'DOM', 'Array Methods', 'localStorage'],
   },
   {
     id: '13',
@@ -159,6 +212,8 @@ export default [
     image: nasa,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/nasa-api-pictures.git',
+    desc: '',
+    topics: ['Fetch', 'Async/Await', 'NASA API', 'DOM', 'localStorage'],
   },
   {
     id: '14',
@@ -168,6 +223,8 @@ export default [
     image: spock,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/spock-rock-game.git',
+    desc: '',
+    topics: ['Confetti.js', 'Modules'],
   },
   {
     id: '15',
@@ -177,6 +234,8 @@ export default [
     image: pong,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/pong.git',
+    desc: '',
+    topics: ['Advanced HTML Canvas'],
   },
   {
     id: '16',
@@ -186,6 +245,8 @@ export default [
     image: video,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/video-player.git',
+    desc: '',
+    topics: ['HTML 5 Video API'],
   },
   {
     id: '17',
@@ -195,6 +256,8 @@ export default [
     image: navigation,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/animated-navigation.git',
+    desc: '',
+    topics: ['CSS Animations'],
   },
   {
     id: '18',
@@ -204,6 +267,8 @@ export default [
     image: template,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/animated-template.git',
+    desc: '',
+    topics: ['Template', 'AOS.js'],
   },
   {
     id: '19',
@@ -213,6 +278,15 @@ export default [
     image: infinite,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/infinite-scroll.git',
+    desc: 'Infinite Scroll is a mobile responsive, infinite scroll functionality web app.  A network request is made when we scroll to bottom of page, but it happens before we reach the bottom, so we don’t see it. We are seamlessly scrolling forever. The photos are fetched from the unsplash api. We see a description when we hover over an image. If we click on an image we can see that image on the upsplash website so we can see the author or download the photo if we want.',
+    topics: [
+      'Fetch',
+      'Async/Await',
+      'Unsplash API',
+      'DOM',
+      'Scroll Event Listener',
+      'Loading animation with loading.io ',
+    ],
   },
   {
     id: '20',
@@ -222,6 +296,8 @@ export default [
     image: joke,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/joke-teller.git',
+    desc: '',
+    topics: ['Fetch', 'Async/Await', 'Joke API', 'Text-to-Speech'],
   },
   {
     id: '21',
@@ -231,6 +307,8 @@ export default [
     image: bookmark,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/bookmark-app.git',
+    desc: '',
+    topics: ['DOM', 'localStorage'],
   },
   {
     id: '22',
@@ -240,6 +318,8 @@ export default [
     image: countdown,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/custom-countdown.git',
+    desc: '',
+    topics: ['Date', 'localStorage'],
   },
   {
     id: '23',
@@ -249,6 +329,8 @@ export default [
     image: form,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/form-validation.git',
+    desc: '',
+    topics: ['DOM', 'Forms'],
   },
   {
     id: '24',
@@ -258,6 +340,8 @@ export default [
     image: basketball,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/basketball-scorecard.git',
+    desc: '',
+    topics: [],
   },
   {
     id: '25',
@@ -267,6 +351,8 @@ export default [
     image: mode,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/light-dark-mode.git',
+    desc: '',
+    topics: ['DOM', 'localStorage'],
   },
   {
     id: '26',
@@ -276,6 +362,8 @@ export default [
     image: music,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/music-player.git',
+    desc: '',
+    topics: ['HTML 5 Audio API'],
   },
   {
     id: '27',
@@ -285,6 +373,8 @@ export default [
     image: picture,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/picture-in-picture.git',
+    desc: 'Picture in Picture is designed for the desktop. Once picture-in-picture support is enabled we get a mini window on the bottom-right side of the screen by default, which we can move around. We then use the screen capture api to select a screen or a portion of a screen to capture in the form of a media stream. We can resize it, move it and it will always stay on top. ',
+    topics: ['Picture-in-Picture API', 'Screen Capture API'],
   },
   {
     id: '28',
@@ -294,6 +384,8 @@ export default [
     image: quote,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/quote-generator.git',
+    desc: 'Quote Generator is a mobile responsive, random quote generator web app. It makes an asynchronous fetch request to a rest API in order to get the quotes. We deal with the ‘corrs error’ by using a proxy api.  Use of a loader between prolonged new quote requests.  Twitter button which opens Twitter in a new tab and if you are logged in will allow you to Tweet. ',
+    topics: ['Fetch', 'Async/Await', 'Quote API', 'CORS'],
   },
   {
     id: '29',
@@ -303,6 +395,8 @@ export default [
     image: dashboard,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/dashboard.git',
+    desc: '',
+    topics: [],
   },
   {
     id: '30',
@@ -312,6 +406,8 @@ export default [
     image: lead,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/lead-tracker.git',
+    desc: '',
+    topics: [],
   },
   {
     id: '31',
@@ -321,6 +417,8 @@ export default [
     image: password,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/password-generator.git',
+    desc: '',
+    topics: [],
   },
 ]
 

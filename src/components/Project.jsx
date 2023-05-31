@@ -1,4 +1,5 @@
 import { useParams, Link, useLocation} from 'react-router-dom'
+import { nanoid } from 'nanoid'
 import allProjectsData from '../allProjectsData'
 
 
@@ -8,6 +9,9 @@ export default function Project() {
     const currentProject = allProjectsData.find(project => project.id === id)
     const search = location.state?.search || ""
     const type = location.state?.type || "all"
+
+    const topicElements = currentProject.topics.map(topic => <li key={nanoid()}>{topic}</li>)
+
   return (
     <>
       <Link 
@@ -49,20 +53,11 @@ export default function Project() {
           </a>
         </div>
         <p>
-          This is the main layout of an Instagram clone. It is built using
-          vanilla CSS, and is utilizing Flexbox, CSS Grid, and CSS Variables. It
-          was built as a part of Scrimbas Frontend Developer Career Path.
+          {currentProject.desc}
         </p>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe et
-          amet tenetur! Fugit sequi optio corrupti fugiat ducimus consequatur
-          incidunt?
-        </p>
-        <p>
-          Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo
-          molestiae eligendi sint culpa nobis voluptas sapiente voluptate,
-          magnam ipsum eius earum?
-        </p>
+        <ul>
+          {topicElements}
+        </ul>
       </div>
     </>
   )
