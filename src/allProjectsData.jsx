@@ -40,6 +40,8 @@ import quote from '../src/assets/quote.png'
 import dashboard from '../src/assets/dashboard.png'
 import lead from '../src/assets/lead.png'
 import password from '../src/assets/password.png'
+import addToCart from '../src/assets/addToCart.png'
+import addToCartSquare from '../src/assets/addToCartSquare.png'
 
 
 
@@ -93,7 +95,23 @@ export default [
     type: 'React',
     github: 'https://github.com/mjlearn13/notes-app.git',
     desc: '',
-    topics: [],
+    topics: ['Deploying with Netlify', 'Using Firebase for data storage'],
+  },
+  {
+    id: nanoid(),
+    name: 'Add to Cart',
+    url: 'https://add-to-cart-mj-portfolio.netlify.app/',
+    imageSquare: addToCartSquare,
+    image: addToCart,
+    type: 'JavaScript',
+    github: 'https://github.com/mjlearn13/add-to-cart.git',
+    desc: "Add to Cart is a Progressive web app, used for keeping track of a shopping list. It's not technically a native mobile app, it's a web app that's disguised as a mobile app.  The web application manifest file was used to transform the web application to make it look like a native app on our phone. Our app will look and feel like a native mobile app and we will also be able to put it on the home screen of our phones for both iOS and Android.  ",
+    topics: [
+      'Progressive web app',
+      'Web Application Manifest',
+      'Deploying with Netlify',
+      'Using Firebase for data storage',
+    ],
   },
   {
     id: nanoid(),

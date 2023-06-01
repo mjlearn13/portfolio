@@ -1,5 +1,6 @@
 import {Link, NavLink} from 'react-router-dom'
-import devJane from '../assets/devjane.png'
+import devMJ from '../assets/devMJLogo.png'
+
 
 
 export default function Header(){
@@ -14,7 +15,7 @@ export default function Header(){
       <header>
         <div className="logo">
           <Link to="/">
-            <img src={devJane} alt="Jane smiling" />
+            <img src={devMJ} alt="MJ logo" />
           </Link>
         </div>
 
