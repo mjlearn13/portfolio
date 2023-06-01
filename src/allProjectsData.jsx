@@ -47,7 +47,7 @@ export default [
   {
     id: nanoid(),
     name: 'VANLIFE',
-    url: 'https://inquisitive-zuccutto-886fd5.netlify.app/',
+    url: 'https://van-life-mj-portfolio.netlify.app/',
     imageSquare: vanLifeSquare,
     image: vanLife,
     type: 'React',
@@ -87,7 +87,7 @@ export default [
   {
     id: nanoid(),
     name: 'Notes',
-    url: 'https://voluble-brioche-cf4ae0.netlify.app/',
+    url: 'https://notes-mj-portfolio.netlify.app/',
     imageSquare: notesAppSquare,
     image: notesApp,
     type: 'React',
@@ -98,7 +98,7 @@ export default [
   {
     id: nanoid(),
     name: 'Pic Some',
-    url: 'https://deluxe-churros-f1e05b.netlify.app/',
+    url: 'https://pic-some-mj-portfolio.netlify.app/',
     imageSquare: picSomeSquare,
     image: picSome,
     type: 'React',
@@ -109,7 +109,7 @@ export default [
   {
     id: nanoid(),
     name: 'Speed Typing',
-    url: 'https://idyllic-cascaron-fc1a88.netlify.app/',
+    url: 'https://speed-typing-game-mj-portfolio.netlify.app/',
     imageSquare: speedTypingGameSquare,
     image: speedTypingGame,
     type: 'React',
@@ -120,7 +120,7 @@ export default [
   {
     id: nanoid(),
     name: 'Tenzies',
-    url: 'https://fastidious-chaja-ae6f30.netlify.app/',
+    url: 'https://tenzies-mj-portfilio.netlify.app/',
     imageSquare: tenziesSquare,
     image: tenzies,
     type: 'React',
@@ -131,7 +131,7 @@ export default [
   {
     id: nanoid(),
     name: 'Meme Generator',
-    url: 'https://benevolent-begonia-d8c730.netlify.app/',
+    url: 'https://meme-generator-mj-portfolio.netlify.app/',
     imageSquare: memeGenerator,
     image: memeGenerator,
     type: 'React',
