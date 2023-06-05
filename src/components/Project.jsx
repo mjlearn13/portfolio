@@ -3,6 +3,7 @@ import { nanoid } from 'nanoid'
 import allProjectsData from '../allProjectsData'
 
 
+
 export default function Project() {
     const {id} = useParams()
     const location = useLocation()
@@ -14,11 +15,7 @@ export default function Project() {
 
   return (
     <>
-      <Link 
-        to={`..${search}`}
-        relative="path"
-        className="back-button"
-      >
+      <Link to={`..${search}`} relative="path" className="back-button">
         &larr; <span>Back to {type} projects</span>
       </Link>
 
@@ -34,7 +31,7 @@ export default function Project() {
       </section>
 
       <div className="portfolio-item-individual">
-        <div>
+        <div className="portfolio-item-buttons">
           <a
             className=""
             target="_blank"
@@ -49,15 +46,11 @@ export default function Project() {
             rel="noreferrer"
             href={currentProject.url}
           >
-            <i className="fas fa-eye"></i> Live version{' '}
+            <i className="fas fa-eye"></i> Live version
           </a>
         </div>
-        <p>
-          {currentProject.desc}
-        </p>
-        <ul>
-          {topicElements}
-        </ul>
+        <p>{currentProject.desc}</p>
+        <ul>{topicElements}</ul>
       </div>
     </>
   )

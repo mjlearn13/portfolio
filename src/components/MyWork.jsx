@@ -20,7 +20,7 @@ export default function MyWork(){
         key={project.id}
         className="portfolio__item"
       >
-        <img src={project.imageSquare} alt="" className="portfolio__img" />
+        <img src={project.imageSquare} alt={`{${project.name} web app}`} className="portfolio__img" title={project.name}/>
       </Link>
     )
   })

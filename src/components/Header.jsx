@@ -24,21 +24,14 @@ export default function Header(){
             to="myservices"
             style={({ isActive }) => (isActive ? activeStyles : null)}
           >
-            My Services
-          </NavLink>
-
-          <NavLink 
-            to="aboutme"
-            style={({ isActive }) => (isActive ? activeStyles : null)}
-          >
-            About Me
+            Services
           </NavLink>
 
           <NavLink 
             to="mywork"
             style={({ isActive }) => (isActive ? activeStyles : null)}
           >
-            My Work
+            Projects
           </NavLink>
         </nav>
       </header>
