@@ -95,6 +95,22 @@ strong { font-weight: var(--fw-bold) }
     text-decoration: underline;
 }
 
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: var(--fs-h2);
+  background: orange;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0 5px 10px #ccc;
+}
+
+.back-to-top:hover {
+  background: red;
+}
 /* Typography */
 
 h1,

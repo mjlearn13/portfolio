@@ -1,7 +1,27 @@
+import { useEffect, useState } from 'react'
 import mjHeadShot from '../assets/mj-headShot.jpg'
 import mjBjj from '../assets/mj-bjj.jpeg'
 
 export default function Introduction() {
+  const [showButton, setShowButton] = useState(false)
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) {
+        setShowButton(true)
+      } else {
+        setShowButton(false)
+      }
+    })
+  }, [])
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth', // for smoothly scrolling
+    })
+  }
+
   return (
     <>
       <section className="intro">
@@ -17,7 +37,7 @@ export default function Introduction() {
       <section className="about-me">
         <h2 className="section__title section__title--about">Who I am</h2>
         <p className="section__subtitle section__subtitle--about">
-          Front-End Developer and animal lover from Berkshire.
+          Front-End Developer and martial artist from Berkshire.
         </p>
 
         <div className="">
@@ -45,6 +65,12 @@ export default function Introduction() {
           alt="MJ sparring against team mate"
           className="about-me__img"
         />
+
+        {showButton && (
+          <button onClick={scrollToTop} className="back-to-top">
+            &#8679;
+          </button>
+        )}
       </section>
     </>
   )
