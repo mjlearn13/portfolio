@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import allProjectsData from '../allProjectsData'
+import reactLogo from '../assets/logos/react.png'
+import javaScriptLogo from '../assets/logos/javaScript.png'
 
 export default function MyWork() {
   const [showButton, setShowButton] = useState(false)
@@ -61,20 +63,20 @@ export default function MyWork() {
       <div className="projects-filter-buttons">
         <button
           onClick={() => setSearchParams({ type: 'react' })}
-          className={`btn project-type react ${
+          className={`btn-logos project-type react ${
             typeFilter === 'react' ? 'selected' : ''
           }`}
         >
-          React
+          <img src={reactLogo} className="react-logo" />
         </button>
 
         <button
           onClick={() => setSearchParams({ type: 'javascript' })}
-          className={`btn project-type javascript ${
+          className={`btn-logos project-type javascript ${
             typeFilter === 'javascript' ? 'selected' : ''
           }`}
         >
-          JavaScript
+          <img src={javaScriptLogo} className="javaScript-logo" />
         </button>
 
         {typeFilter && (
@@ -82,7 +84,7 @@ export default function MyWork() {
             onClick={() => setSearchParams({})}
             className="btn project-type clear-filters"
           >
-            All
+            All 
           </button>
         )}
       </div>

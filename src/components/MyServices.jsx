@@ -52,7 +52,7 @@ export default function MyServices() {
         </p>
       </div>
 
-      <Link to="../mywork" className="btn">
+      <Link to="../mywork" className="btn btn-myServices">
         Projects
       </Link>
 
