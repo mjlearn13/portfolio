@@ -41,15 +41,15 @@ export default function MyServices() {
             HTML, CSS, and JavaScript.
           </p>
         </div>
-      </div>
 
-      <div className="service">
-        <h3>Development</h3>
-        <p>
-          I am a versatile frontend developer with a speciality in React JS. I
-          also have a solid grip of the fundamentals of web development using
-          HTML, CSS, and JavaScript.
-        </p>
+        <div className="service">
+          <h3>Development</h3>
+          <p>
+            I am a versatile frontend developer with a speciality in React JS. I
+            also have a solid grip of the fundamentals of web development using
+            HTML, CSS, and JavaScript.
+          </p>
+        </div>
       </div>
 
       <Link to="../mywork" className="btn btn-myServices">
