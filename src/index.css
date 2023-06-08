@@ -79,7 +79,7 @@ strong { font-weight: var(--fw-bold) }
     cursor: pointer;
     font-size: .8rem;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: .125em;
     font-weight: var(--fw-bold);
     transition: transform 200ms ease-in-out;
 }
@@ -109,8 +109,21 @@ strong { font-weight: var(--fw-bold) }
     display: block;
     color: black;
     text-decoration: none;
-    margin-top: 1.25em;
-    margin-left: 1.375em;
+    margin: 3em auto 0;
+    max-width: 600px;
+    padding-left: 2em;
+}
+
+@media (min-width: 600px) {
+    .back-button {
+       padding-left: 2.5em;
+    }
+}
+
+@media (min-width: 800px) {
+    .back-button {
+        padding-left: 0;
+    }
 }
 
 .back-button span:hover {
@@ -375,7 +388,7 @@ nav a:hover {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     background-color: whitesmoke;
     padding: .4em;
-    border-radius: .313em;
+    border-radius: .625em;
 }
 
 .portfolio__item {
@@ -544,16 +557,34 @@ nav a:hover {
     text-decoration: none;
 }
 
+.portfolio-item-individual ul {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .portfolio-item-buttons {
     display: flex;
     justify-content: space-evenly;
+}
 
+.portfolio-item-buttons a {
+    font-size: .75em;
+}
+
+@media (min-width: 450px) {
+    .portfolio-item-buttons a {
+        font-size: 1em;
+    }
 }
 
 @media (min-width: 600px) {
     .portfolio-intro {
-    padding: 5em 2em 2em 2em;
-}
+        padding: 5em 2em 2em 2em;
+    }
+    .portfolio-item-buttons a {
+        font-size: 1em;
+    }
 }
 
 .not-found-container {

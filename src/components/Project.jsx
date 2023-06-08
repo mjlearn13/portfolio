@@ -33,7 +33,6 @@ export default function Project() {
       <div className="portfolio-item-individual">
         <div className="portfolio-item-buttons">
           <a
-            className=""
             target="_blank"
             rel="noreferrer"
             href={currentProject.github}
@@ -41,12 +40,11 @@ export default function Project() {
             <i className="fab fa-github"></i> GitHub Repo
           </a>
           <a
-            className=""
             target="_blank"
             rel="noreferrer"
             href={currentProject.url}
           >
-            <i className="fas fa-eye"></i> Live version
+            <i className="fas fa-eye"></i> Live Version
           </a>
         </div>
         <p>{currentProject.desc}</p>
