@@ -23,7 +23,6 @@ import nasaSquare from '../src/assets/nasa-square.png'
 import nasa from '../src/assets/nasa.png'
 import spockSquare from '../src/assets/spock-square.png'
 import spock from '../src/assets/spock.png'
-import pong from '../src/assets/pong.png'
 import video from '../src/assets/video.png'
 import navigation from '../src/assets/navigation.png'
 import template from '../src/assets/template.png'
@@ -214,7 +213,7 @@ export default [
   },
   {
     id: nanoid(),
-    name: 'Math Sprint Game',
+    name: 'Math Sprint',
     url: 'https://mjlearn13.github.io/math-sprint-game/',
     imageSquare: math,
     image: math,
@@ -225,7 +224,7 @@ export default [
   },
   {
     id: nanoid(),
-    name: 'Nasa Api Pictures',
+    name: 'Nasa Pictures',
     url: 'https://mjlearn13.github.io/nasa-api-pictures/',
     imageSquare: nasaSquare,
     image: nasa,
@@ -247,17 +246,6 @@ export default [
   },
   {
     id: nanoid(),
-    name: 'Pong',
-    url: 'https://mjlearn13.github.io/pong/',
-    imageSquare: pong,
-    image: pong,
-    type: 'JavaScript',
-    github: 'https://github.com/mjlearn13/pong.git',
-    desc: '',
-    topics: ['Advanced HTML Canvas'],
-  },
-  {
-    id: nanoid(),
     name: 'Video Player',
     url: 'https://mjlearn13.github.io/video-player/',
     imageSquare: video,
@@ -269,7 +257,7 @@ export default [
   },
   {
     id: nanoid(),
-    name: 'Animated Navigation',
+    name: 'Animated Nav',
     url: 'https://mjlearn13.github.io/animated-navigation/',
     imageSquare: navigation,
     image: navigation,
