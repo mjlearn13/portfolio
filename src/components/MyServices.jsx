@@ -22,7 +22,7 @@ export default function MyServices() {
   }
 
   return (
-    <section className="my-services" id="services">
+    <section className="my-services">
       <h2 className="section__title section__title--services">What I do</h2>
       <div className="services">
         <div className="service">

@@ -223,11 +223,11 @@ nav a:hover {
     font-weight: 600;
 }
 
-/*  Intro section  */
+/*  Intro section */
 
-.intro {
+/* .intro {
     position: relative;
-}
+} */
 
 .intro__img {
     box-shadow: var(--bs);
@@ -251,7 +251,7 @@ nav a:hover {
         display: grid;
         width: min-content;
         margin: 0 auto;
-        grid-column-gap: 1em;
+        grid-column-gap: 1.5em;
         grid-template-areas: 
             "img title"
             "img subtitle";
@@ -276,6 +276,49 @@ nav a:hover {
     }
 }
 
+/* About-me section */
+
+.about-me {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.about-me__img {
+    box-shadow: var(--bs);
+}
+
+@media (min-width: 600px) {
+    .about-me {
+        display: grid;
+        grid-template-columns: 1fr 200px;
+        grid-template-areas: 
+            "title img"
+            "subtitle img"
+            "text img";
+        grid-column-gap: 2em;
+    }
+    
+    .section__title--about {
+        grid-area: title;
+    }
+    
+    .section__subtitle--about {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        position: relative;
+        left: -1em;
+        width: calc(100% + 2em);
+        padding-left: 1em;
+        padding-right: calc(200px + 4em);
+    }
+    
+    .about-me__img {
+        grid-area: img;
+        position: relative;
+        z-index: 2;
+    }
+}
+
 
 
 /*  My services section  */
@@ -284,7 +327,6 @@ nav a:hover {
     background-color: var(--color-dark);
     background-image: url(./assets/services-bg7.jpg);
     background-size: cover;
-    /* background-blend-mode: normal; */
     color: var(--color-light);
     text-align: center;
 }
@@ -330,47 +372,6 @@ nav a:hover {
     }
 }
 
-
-.about-me {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.about-me__img {
-    box-shadow: var(--bs);
-}
-
-@media (min-width: 600px) {
-    .about-me {
-        display: grid;
-        grid-template-columns: 1fr 200px;
-        grid-template-areas: 
-            "title img"
-            "subtitle img"
-            "text img";
-        grid-column-gap: 2em;
-    }
-    
-    .section__title--about {
-        grid-area: title;
-    }
-    
-    .section__subtitle--about {
-        grid-column: 1 / -1;
-        grid-row: 2;
-        position: relative;
-        left: -1em;
-        width: calc(100% + 2em);
-        padding-left: 1em;
-        padding-right: calc(200px + 4em);
-    }
-    
-    .about-me__img {
-        grid-area: img;
-        position: relative;
-        z-index: 2;
-    }
-}
 
 /* My Work */
 

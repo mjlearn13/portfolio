@@ -40,7 +40,7 @@ export default function Introduction() {
           Front-End Developer and martial artist from Berkshire.
         </p>
 
-        <div className="">
+        <div>
           <p>
             I'm a web developer based out of Berkshire, UK. My specialities
             include React JS, JavaScript, CSS and HTML. My focus is on
