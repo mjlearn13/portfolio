@@ -142,6 +142,7 @@ strong { font-weight: var(--fw-bold) }
   right: 1.25em;
   height: 1.38em;
   width: 1.38em;
+  margin: 0 auto;
   font-size: var(--fs-h2);
   background: var(--color-accent);
   color: var(--color-light);
