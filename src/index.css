@@ -140,7 +140,9 @@ strong { font-weight: var(--fw-bold) }
   position: fixed;
   bottom: 1.25em;
   right: 1.25em;
-  font-size: var(--fs-h3);
+  height: 1.38em;
+  width: 1.38em;
+  font-size: var(--fs-h2);
   background: var(--color-accent);
   color: var(--color-light);
   cursor: pointer;
@@ -153,11 +155,7 @@ strong { font-weight: var(--fw-bold) }
   background: var(--color-dark);;
 }
 
-@media (min-width: 600px) {
-    .back-to-top {
-        font-size: var(--fs-h2);
-    }
-}
+
 /* Typography */
 
 h1,
