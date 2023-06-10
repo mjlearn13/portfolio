@@ -27,7 +27,7 @@ export default function Project() {
         <p className="section__subtitle section__subtitle--intro">
           {currentProject.type}
         </p>
-        <img src={currentProject.image} alt="" className="intro__img" />
+        <img src={currentProject.image} alt="snapshot of project" className="intro__img" />
       </section>
 
       <div className="portfolio-item-individual">

@@ -110,19 +110,25 @@ strong { font-weight: var(--fw-bold) }
     color: black;
     text-decoration: none;
     margin: 3em auto 0;
-    max-width: 600px;
+    max-width: 1000px;
     padding-left: 2em;
 }
 
 @media (min-width: 600px) {
     .back-button {
-       padding-left: 2.5em;
+       padding-left: 2em;
     }
 }
 
 @media (min-width: 800px) {
     .back-button {
-        padding-left: 0;
+        padding-left: 2em;
+    }
+}
+
+@media (min-width: 1040px) {
+    .back-button {
+        padding-left: 1.2em;
     }
 }
 
@@ -159,6 +165,7 @@ h1 { font-size: var(--fs-h1) }
 h2 { font-size: var(--fs-h2) }
 h3 { font-size: var(--fs-h3) }
 
+/* Section */
 
 .section__title {
     margin-bottom: .25em;
@@ -225,9 +232,9 @@ nav a:hover {
 
 /*  Intro section */
 
-/* .intro {
+.intro {
     position: relative;
-} */
+}
 
 .intro__img {
     box-shadow: var(--bs);
@@ -329,6 +336,7 @@ nav a:hover {
     background-size: cover;
     color: var(--color-light);
     text-align: center;
+    margin-top: 1em;
 }
 
 .section__title--services {
@@ -347,7 +355,7 @@ nav a:hover {
 }
 
 .services {
-    margin-bottom: 4em;
+    margin-bottom: 2em;
 }
 
 .service {
@@ -385,7 +393,7 @@ nav a:hover {
     margin: 0 auto;
     max-width: 1000px;
     display: grid;
-    grid-gap: 2em;
+    grid-gap: 1em;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     background-color: whitesmoke;
     padding: .4em;
@@ -395,6 +403,7 @@ nav a:hover {
 .portfolio__item {
     border-radius: .438em;
     overflow: hidden;
+    padding: .5em;
 
 }
 
@@ -451,9 +460,9 @@ nav a:hover {
     outline: none;
 }
 
-/* .project-type.selected {
+.project-type.selected {
     border-bottom: 1px solid tomato;
-} */
+}
 
 .project-type.react:hover, .project-type.react.selected {
     transform: scale(1.3);
