@@ -70,6 +70,15 @@ export default function MyWork() {
           <img src={reactLogo} className="react-logo" />
         </button>
 
+        {typeFilter && (
+          <button
+            onClick={() => setSearchParams({})}
+            className="btn project-type clear-filters"
+          >
+            All
+          </button>
+        )}
+
         <button
           onClick={() => setSearchParams({ type: 'javascript' })}
           className={`btn-logos project-type javascript ${
@@ -78,15 +87,6 @@ export default function MyWork() {
         >
           <img src={javaScriptLogo} className="javaScript-logo" />
         </button>
-
-        {typeFilter && (
-          <button
-            onClick={() => setSearchParams({})}
-            className="btn project-type clear-filters"
-          >
-            All 
-          </button>
-        )}
       </div>
       <div className="portfolio">
         {projectElements}
