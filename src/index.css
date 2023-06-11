@@ -19,10 +19,18 @@
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
     --fs-body: 1rem;
+    --fs-tech-logo: 5rem;
     
     --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
           0.125em 0.125em 0.25em rgba(0,0,0,.15);
 }
+
+@media (min-width: 600px) {
+    :root {
+        --fs-tech-logo: 8rem;
+    } 
+}
+
 
 @media (min-width: 800px) {
     :root {
@@ -30,6 +38,7 @@
         --fs-h2: 3.75rem;
         --fs-h3: 1.5rem;
         --fs-body: 1.125rem;
+        --fs-tech-logo: 10rem;
     }
 }
 
@@ -443,11 +452,11 @@ nav a:hover {
 }
 
 .project-type {
-    height: var(--fs-logo);
+    height: var(--fs-tech-logo);
     border: none;
     transition: 200ms all cubic-bezier(0.4, 0, 0.2, 1);
     margin: .313em;
-    background-color: white;
+    background-color: transparent;
 }
 
 .project-type:focus {
@@ -459,11 +468,11 @@ nav a:hover {
 } */
 
 .project-type.react:hover, .project-type.react.selected {
-    transform: scale(1.5);
+    transform: scale(1.47);
 }
 
 .project-type.javascript:hover, .project-type.javascript.selected {
-    transform: scale(1.65);
+    transform: scale(1.47);
 }
 
 .project-type.clear-filters {
