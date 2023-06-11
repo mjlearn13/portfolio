@@ -19,16 +19,9 @@
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
     --fs-body: 1rem;
-    --fs-logo: 4rem;
     
     --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
           0.125em 0.125em 0.25em rgba(0,0,0,.15);
-}
-
-@media (min-width: 600px) {
-    :root {
-        --fs-logo: 6rem;
-    } 
 }
 
 @media (min-width: 800px) {
@@ -37,7 +30,6 @@
         --fs-h2: 3.75rem;
         --fs-h3: 1.5rem;
         --fs-body: 1.125rem;
-        --fs-logo: 8rem;
     }
 }
 
@@ -215,7 +207,7 @@ header {
 }
 
 .logo {
-    max-width: 100px;
+    max-width: 180px;
     margin-right: auto;
 }
 
@@ -248,9 +240,9 @@ nav a:hover {
 }
 
 @media (min-width: 600px) {
-    .logo {
+    /* .logo {
     max-width: 250px;
-    }
+    } */
 
     section {
     padding: 5em 2em;
@@ -631,7 +623,6 @@ nav a:hover {
         font-size: var(--fs-h3);
     }
     .logo {
-        max-width: 180px;
         margin-right: 0;
     }
    
