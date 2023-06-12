@@ -113,6 +113,15 @@ strong { font-weight: var(--fw-bold) }
     margin: 3em auto 0;
     max-width: 1000px;
     padding-left: 2em;
+    letter-spacing: 1px;
+}
+
+.back-button span {
+    text-transform: capitalize;
+}
+
+.back-button span:hover {
+    text-decoration: underline;
 }
 
 @media (min-width: 600px) {
@@ -186,6 +195,7 @@ h3 { font-size: var(--fs-h3) }
 .section__subtitle {
     margin: 0;
     font-size: var(--fs-h3);
+    letter-spacing: 1px;
 }
 
 .section__subtitle--intro,
@@ -225,6 +235,7 @@ nav a {
     color: #4D4D4D;
     font-weight: 500;
     padding: .313em 1.25em;
+    letter-spacing: 1px;
 }
 
 nav a:hover {
@@ -418,6 +429,7 @@ nav a:hover {
     font-size: var(--fs-body);
     font-weight: var(--fw-bold);
     text-shadow: 2px 2px 8px var(--color-dark);
+    text-transform: uppercase;
 }
 
 .portfolio__card p:hover {
@@ -590,6 +602,7 @@ nav a:hover {
     color: var(--color-dark);
     padding: 0.25em 1em;
     text-decoration: none;
+    letter-spacing: 1px;
 }
 
 .portfolio-item-individual ul {
