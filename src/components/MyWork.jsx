@@ -41,12 +41,15 @@ export default function MyWork() {
         key={project.id}
         className="portfolio__item"
       >
-        <img
-          src={project.imageSquare}
-          alt={`{${project.name} web app}`}
-          className="portfolio__img"
-          title={project.name}
-        />
+        <div className="portfolio__card">
+          <img
+            src={project.imageSquare}
+            alt={`{${project.name} web app}`}
+            className="portfolio__img"
+            title={project.name}
+          />
+          <p>{project.name}</p>
+        </div>
       </Link>
     )
   })

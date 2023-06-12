@@ -53,7 +53,7 @@ export default [
     image: vanLife,
     type: 'React',
     github: 'https://github.com/mjlearn13/van-life.git',
-    desc: 'VanLife is a single page web app for renting decked-out travel vans for your next road trip adventure!  It is built using React    Router v6, the most popular routing library for React applications and one of the most downloaded React support libraries ever. It was built as a part of Scrimbas Frontend Developer Career Path.',
+    desc: 'VanLife is a single page web app for renting decked-out travel vans for your next road trip adventure!  It is built using React Router v6, the most popular routing library for React applications and one of the most downloaded React support libraries ever. It was built as a part of Scrimbas Frontend Developer Career Path.',
     topics: [
       'Basic router setup',
       'Route',
