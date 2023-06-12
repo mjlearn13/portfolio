@@ -42,13 +42,13 @@ export default function MyWork() {
         className="portfolio__item"
       >
         <div className="portfolio__card">
+          <p>{project.name}</p>
           <img
             src={project.imageSquare}
             alt={`{${project.name} web app}`}
             className="portfolio__img"
             title={project.name}
           />
-          <p>{project.name}</p>
         </div>
       </Link>
     )

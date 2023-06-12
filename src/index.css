@@ -416,10 +416,10 @@ nav a:hover {
 
 .portfolio__card p{
     padding: .5em;
-    margin-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 1em;
     color: #4D4D4D;
     font-weight: 500;
-    border-bottom: 1px double var(--color-dark);
 }
 
 .portfolio__card p:hover {
