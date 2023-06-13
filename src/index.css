@@ -97,7 +97,9 @@ strong { font-weight: var(--fw-bold) }
 }
 
 .btn:hover,
-.btn-logos:hover {
+.btn-logos:hover,
+.btn:focus,
+.btn-logos:focus {
     transform: scale(1.1);
 }
 
@@ -116,11 +118,12 @@ strong { font-weight: var(--fw-bold) }
     letter-spacing: 1px;
 }
 
-.back-button span {
+.back-button {
     text-transform: capitalize;
 }
 
-.back-button span:hover {
+.back-button:hover,
+.back-button:focus {
     text-decoration: underline;
 }
 
@@ -155,7 +158,8 @@ strong { font-weight: var(--fw-bold) }
   box-shadow: 0 .313em .625em #ccc;
 }
 
-.back-to-top:hover {
+.back-to-top:hover,
+.back-to-top:focus {
   background: var(--color-dark);;
 }
 
@@ -226,6 +230,11 @@ header {
     margin-right: auto;
 }
 
+.logo:hover,
+.logo:focus {
+    opacity: .5;
+}
+
 nav a {
     text-decoration: none;
     letter-spacing: 1px;
@@ -236,7 +245,8 @@ nav a {
     text-transform: uppercase;
 }
 
-nav a:hover {
+nav a:hover,
+nav a:focus {
     font-weight: var(--fw-bold);
     color: var(--color-dark);
 }
@@ -332,8 +342,6 @@ nav a:hover {
         z-index: 2;
     }
 }
-
-
 
 /*  My services section  */
 
@@ -542,7 +550,8 @@ nav a:hover {
     opacity: .7;
 }
 
-.footer__link:hover {
+.footer__link:hover,
+.footer__link:focus {
     text-decoration: underline;
 }
 
