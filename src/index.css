@@ -650,6 +650,7 @@ nav a:hover {
 
     .logo {
         margin-right: 0;
+        width: 40vw;
     }
    
     section {
@@ -657,11 +658,11 @@ nav a:hover {
     }
 
     .intro h1 {
-        font-size: var(--fs-h2) ;
+        font-size: 8vw ;
     }
 
     .intro p {
-        font-size: var(--fs-h3);
+        font-size: 5vw;
     } 
 
     .back-button {
