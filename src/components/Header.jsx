@@ -5,10 +5,8 @@ import devMJ from '../assets/devMJLogo.png'
 
 export default function Header(){
   const activeStyles = {
-    fontWeight: 'bold',
     textDecoration: 'underline',
-    color: '#161616',
-    
+    color: 'var(--color-dark)',
   }
 
     return (

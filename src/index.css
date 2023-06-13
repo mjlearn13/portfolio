@@ -142,10 +142,6 @@ strong { font-weight: var(--fw-bold) }
     }
 }
 
-.back-button span:hover {
-    text-decoration: underline;
-}
-
 .back-to-top {
   position: fixed;
   bottom: 1.25em;
@@ -232,16 +228,17 @@ header {
 
 nav a {
     text-decoration: none;
-    color: #4D4D4D;
-    font-weight: 500;
-    padding: .313em 1.25em;
     letter-spacing: 1px;
+    padding: .5em;
+    color: var(--color-accent);
+    font-weight: var(--fw-reg);
+    text-shadow: 2px 2px 8px var(--color-dark);
+    text-transform: uppercase;
 }
 
 nav a:hover {
-    color: #161616;
-    text-decoration: underline;
-    font-weight: 600;
+    font-weight: var(--fw-bold);
+    color: var(--color-dark);
 }
 
 /*  Intro section */
@@ -417,23 +414,19 @@ nav a:hover {
     text-decoration: none;
 }
 
-/* .portfolio__card {
- 
-} */
-
 .portfolio__card p{
     padding: .5em;
     margin-top: 0;
     margin-bottom: 1em;
-    color: var(--color-light);
+    color: var(--color-accent);
     font-size: var(--fs-body);
-    font-weight: var(--fw-bold);
+    font-weight: var(--fw-reg);
     text-shadow: 2px 2px 8px var(--color-dark);
     text-transform: uppercase;
 }
 
 .portfolio__card p:hover {
-    color: var(--color-accent);
+    color: var(--color-dark);
     font-weight: var(--fw-bold);
 }
 
@@ -644,31 +637,39 @@ nav a:hover {
     align-items: center;;
 }
 
-/* .link-button {
-    width: 50%;
-    background-color: #161616;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    padding: 10px;
-    border-radius: 5px;
-} */
-
 /* small screen size */
 
 @media (max-width: 500px) {
     header {
         flex-direction: column;
     }
+
     nav {
-        margin: 2em auto 1em;
+        margin-top: .25em;
     }
-    nav a {
-        font-size: var(--fs-h3);
-    }
+
     .logo {
         margin-right: 0;
     }
    
+    section {
+        padding-top: 1em;
+    }
+
+    .intro h1 {
+        font-size: var(--fs-h2) ;
+    }
+
+    .intro p {
+        font-size: var(--fs-h3);
+    } 
+
+    .back-button {
+        margin-top: 1.5em;
+    }
+
+    .portfolio-intro {
+        padding-top: 1.25em;
+    }
 }
 
