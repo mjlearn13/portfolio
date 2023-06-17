@@ -234,6 +234,12 @@ header {
 .logo:focus {
     opacity: .5;
 }
+ 
+nav {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
 
 nav a {
     text-decoration: none;
