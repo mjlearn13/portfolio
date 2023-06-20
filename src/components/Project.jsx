@@ -1,17 +1,36 @@
-import { useParams, Link, useLocation} from 'react-router-dom'
+import { useEffect, useState } from 'react'
+import { useParams, Link, useLocation } from 'react-router-dom'
 import { nanoid } from 'nanoid'
 import allProjectsData from '../allProjectsData'
 
-
-
 export default function Project() {
-    const {id} = useParams()
-    const location = useLocation()
-    const currentProject = allProjectsData.find(project => project.id === id)
-    const search = location.state?.search || ""
-    const type = location.state?.type || "all"
+  const [showButton, setShowButton] = useState(false)
+  const { id } = useParams()
+  const location = useLocation()
+  const currentProject = allProjectsData.find((project) => project.id === id)
+  const search = location.state?.search || ''
+  const type = location.state?.type || 'all'
 
-    const topicElements = currentProject.topics.map(topic => <li key={nanoid()}>{topic}</li>)
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) {
+        setShowButton(true)
+      } else {
+        setShowButton(false)
+      }
+    })
+  }, [])
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    })
+  }
+
+  const topicElements = currentProject.topics.map((topic) => (
+    <li key={nanoid()}>{topic}</li>
+  ))
 
   return (
     <>
@@ -27,34 +46,31 @@ export default function Project() {
         <p className="section__subtitle section__subtitle--intro">
           {currentProject.type}
         </p>
-        <img src={currentProject.image} alt="snapshot of project" className="intro__img" />
+        <img
+          src={currentProject.image}
+          alt="snapshot of project"
+          className="intro__img"
+        />
       </section>
 
       <div className="portfolio-item-individual">
         <div className="portfolio-item-buttons">
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href={currentProject.github}
-          >
+          <a target="_blank" rel="noreferrer" href={currentProject.github}>
             <i className="fab fa-github"></i> GitHub Repo
           </a>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href={currentProject.url}
-          >
+          <a target="_blank" rel="noreferrer" href={currentProject.url}>
             <i className="fas fa-eye"></i> Live Version
           </a>
         </div>
         <p>{currentProject.desc}</p>
         <ul>{topicElements}</ul>
       </div>
+
+      {showButton && (
+        <button onClick={scrollToTop} className="back-to-top">
+          &#8679;
+        </button>
+      )}
     </>
   )
 }
-
-
-
-
- 

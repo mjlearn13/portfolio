@@ -17,7 +17,7 @@ export default function MyServices() {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth', // for smoothly scrolling
+      behavior: 'smooth', 
     })
   }
 
@@ -29,7 +29,7 @@ export default function MyServices() {
           <h3>Design</h3>
           <p>
             I strive to create beautiful and intuitive web apps, with both
-            aestetics and usability in mind.
+            aesthetics and usability in mind.
           </p>
         </div>
 

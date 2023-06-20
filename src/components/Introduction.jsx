@@ -52,11 +52,10 @@ export default function Introduction() {
             and develop.
           </p>
           <p>
-            My background is in fire fighting and plumbing/heating/gas work. I
-            have an Associate in Specialised Technology degree in Personal
-            Computer and Network Technology from Allentown Business School. I'm
-            a purple belt in Brazilian Jiu-Jitsu and have three adorable rabbits
-            and a hamster.
+            I was a London Fire-Fighter for 14 years and ran a plumbing/heating/gas 
+            business at the same time. I have an Associate in Specialised Technology 
+            degree in Personal Computer and Network Technology from Allentown Business 
+            School. I'm a purple belt in Brazilian Jiu-Jitsu and a wrestler.
           </p>
         </div>
 
