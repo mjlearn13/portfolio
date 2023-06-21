@@ -6,7 +6,6 @@ import devMJ from '../assets/logos/devMJLogo.png'
 export default function Header(){
   const activeStyles = {
     textDecoration: 'underline',
-    color: 'var(--color-dark)',
   }
 
     return (

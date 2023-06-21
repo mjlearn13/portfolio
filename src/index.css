@@ -110,21 +110,19 @@ strong { font-weight: var(--fw-bold) }
 
 .back-button {
     display: block;
-    color: black;
+    color: var(--color-accent);
     text-decoration: none;
     margin: 3em auto 0;
     max-width: 1000px;
     padding-left: 2em;
     letter-spacing: 1px;
-}
-
-.back-button {
     text-transform: capitalize;
+    font-weight: var(--fw-bold);
 }
 
 .back-button:hover,
 .back-button:focus {
-    text-decoration: underline;
+    opacity: .5;
 }
 
 @media (min-width: 600px) {
@@ -239,16 +237,15 @@ nav a {
     text-decoration: none;
     letter-spacing: 1px;
     padding: .5em;
-    color: var(--color-accent);
+    color: var(--color-dark);
     font-weight: var(--fw-reg);
-    text-shadow: 2px 2px 8px var(--color-dark);
     text-transform: uppercase;
+    text-shadow: 2px 2px 8px var(--color-dark);
 }
 
 nav a:hover,
 nav a:focus {
     font-weight: var(--fw-bold);
-    color: var(--color-dark);
 }
 
 /*  Intro section */
@@ -424,6 +421,10 @@ nav a:focus {
     text-align: center;    
 }
 
+.section__title--work {
+    color: var(--color-accent)
+}
+
 .portfolio {
     margin: 0 auto;
     max-width: 1100px;
@@ -447,7 +448,7 @@ nav a:focus {
     padding: .5em;
     margin-top: 0;
     margin-bottom: 1em;
-    color: var(--color-accent);
+    color: var(--color-dark);
     font-size: var(--fs-body);
     font-weight: var(--fw-reg);
     text-shadow: 2px 2px 8px var(--color-dark);
@@ -455,8 +456,7 @@ nav a:focus {
 }
 
 .portfolio__card p:hover {
-    color: var(--color-dark);
-    font-weight: var(--fw-bold);
+    color: var(--color-accent);
 }
 
 .portfolio__img {
@@ -529,6 +529,7 @@ nav a:focus {
 
 .project-type.clear-filters {
     padding: 2em;
+    text-shadow: 2px 2px 8px var(--color-dark);
 }
 
 .project-type.clear-filters:hover {
