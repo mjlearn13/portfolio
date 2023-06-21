@@ -272,6 +272,26 @@ nav a:focus {
     color: var(--color-light);
 }
 
+.tech-stack {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.logos-heading {
+    margin-bottom: 1em;
+    font-weight: var(--fw-bold);
+    text-align: center;
+}
+
+.logos-container {
+    display: flex;
+    align-items: center;
+}
+
+.logos-container a {
+    margin: .1em;
+}
+
 @media (min-width: 600px) {
     section {
     padding: 5em 2em;
