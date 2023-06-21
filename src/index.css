@@ -149,7 +149,7 @@ strong { font-weight: var(--fw-bold) }
   position: fixed;
   bottom: 1.25em;
   right: 1.25em;
-  font-size: var(--fs-h3);
+  font-size: var(--fs-h2);
   background: var(--color-accent);
   color: var(--color-light);
   cursor: pointer;
@@ -687,6 +687,10 @@ nav a:focus {
 
     .portfolio-intro {
         padding-top: 1.25em;
+    }
+
+    .back-to-top {
+        font-size: var(--fs-h3);
     }
 }
 
