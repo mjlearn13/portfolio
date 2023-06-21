@@ -59,9 +59,6 @@ export default function MyWork() {
   return (
     <section className="my-work">
       <h2 className="section__title section__title--work">My projects</h2>
-      <p className="section__subtitle section__subtitle--work">
-        A selection of my range of work
-      </p>
 
       <div className="projects-filter-buttons">
         <button

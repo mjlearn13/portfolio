@@ -6,7 +6,7 @@ import javaScriptLogo from '../assets/logos/javaScriptLogo.png'
 import cssLogo from '../assets/logos/cssLogo.png'
 import firebaseLogo from '../assets/logos/firebaseLogo.png'
 import gitLogo from '../assets/logos/gitLogo.png'
-import gitHubLogo from '../assets/logos/gitHubLogo.png'
+import githubLogo from '../assets/logos/gitHubLogo.png'
 import htmlLogo from '../assets/logos/htmlLogo.png'
 
 export default function Introduction() {
@@ -67,7 +67,7 @@ export default function Introduction() {
             <img src={gitLogo} title="Git" alt="Git Logo" />
           </a>
           <a href="https://github.com/mjlearn13">
-            <img src={gitHubLogo} title="Git" alt="Git Logo" />
+            <img src={githubLogo} title="Github Logo" alt="Github Logo Logo" />
           </a>
           <a href="https://reactrouter.com/en/main">
             <img

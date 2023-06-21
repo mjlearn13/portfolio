@@ -207,12 +207,6 @@ h3 { font-size: var(--fs-h3) }
     color: var(--color-light);
 }
 
-.section__subtitle--work {
-    color: var(--color-accent);
-    font-weight: var(--fw-bold);
-    margin-bottom: 1em;
-}
-
 /* header */
 
 header {
