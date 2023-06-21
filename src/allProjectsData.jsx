@@ -1,46 +1,36 @@
 import { nanoid } from 'nanoid'
-import vanLifeSquare from '../src/assets/vanlife-square.png'
-import vanLife from '../src/assets/vanlife.png'
-import notesAppSquare from '../src/assets/notes-app-square.png'
-import notesApp from '../src/assets/notes-app.png'
-import picSomeSquare from '../src/assets/pic-some-square.png'
-import picSome from '../src/assets/pic-some.png'
-import speedTypingGameSquare from '../src/assets/speedTypingGame-square.png'
-import speedTypingGame from '../src/assets/speedTypingGame.png'
-import tenziesSquare from '../src/assets/tenzies-square.png'
-import tenzies from '../src/assets/tenzies.png'
-import memeGenerator from '../src/assets/meme-generator.png'
-import twimbaSquare from '../src/assets/twimba-square.png'
-import twimba from '../src/assets/twimba.png'
-import splashSquare from '../src/assets/splash-square.png'
-import splash from '../src/assets/splash.png'
-import paint from '../src/assets/paint.png'
-import dragSquare from '../src/assets/drag-square.png'
-import drag from '../src/assets/drag.png'
-import calculator from '../src/assets/calculator.png'
-import basketball from '../src/assets/basketball.png' 
-import nasaSquare from '../src/assets/nasa-square.png'
-import nasa from '../src/assets/nasa.png'
-import spockSquare from '../src/assets/spock-square.png'
-import spock from '../src/assets/spock.png'
-import video from '../src/assets/video.png'
-import navigation from '../src/assets/navigation.png'
-import template from '../src/assets/template.png'
-import infinite from '../src/assets/infinite.png'
-import joke from '../src/assets/joke.png'
-import bookmark from '../src/assets/bookmark.png'
-import countdown from '../src/assets/countdown.png'
-import form from '../src/assets/form.png'
-import math from '../src/assets/math-sprint.png'
-import mode from '../src/assets/mode.png'
-import music from '../src/assets/music-player.png'
-import picture from '../src/assets/picture.png'
-import quote from '../src/assets/quote.png'
-import dashboard from '../src/assets/dashboard.png'
-import lead from '../src/assets/lead.png'
-import password from '../src/assets/password.png'
-import addToCart from '../src/assets/addToCart.png'
-import addToCartSquare from '../src/assets/addToCartSquare.png'
+import vanLife from '../src/assets/project-images/vanlife.png'
+import notesApp from '../src/assets/project-images/notes-app.png'
+import picSome from '../src/assets/project-images/pic-some.png'
+import speedTypingGame from '../src/assets/project-images/speedTypingGame.png'
+import tenzies from '../src/assets/project-images/tenzies.jpg'
+import memeGenerator from '../src/assets/project-images/meme-generator.png'
+import twimba from '../src/assets/project-images/twimba.png'
+import splash from '../src/assets/project-images/splash.png'
+import paint from '../src/assets/project-images/paint.png'
+import kanban from '../src/assets/project-images/kanban.png'
+import calculator from '../src/assets/project-images/calculator.png'
+import basketball from '../src/assets/project-images/basketball.png' 
+import nasa from '../src/assets/project-images/nasa.png'
+import spock from '../src/assets/project-images/spock.png'
+import video from '../src/assets/project-images/video.png'
+import navigation from '../src/assets/project-images/navigation.png'
+import template from '../src/assets/project-images/template.png'
+import infinite from '../src/assets/project-images/infinite.png'
+import joke from '../src/assets/project-images/joke.png'
+import bookmark from '../src/assets/project-images/bookmark.png'
+import countdown from '../src/assets/project-images/countdown.png'
+import form from '../src/assets/project-images/form.png'
+import math from '../src/assets/project-images/math-sprint.png'
+import mode from '../src/assets/project-images/mode.png'
+import music from '../src/assets/project-images/music-player.png'
+import picture from '../src/assets/project-images/picture.png'
+import quote from '../src/assets/project-images/quote.png'
+import dashboard from '../src/assets/project-images/dashboard.png'
+import lead from '../src/assets/project-images/lead.png'
+import password from '../src/assets/project-images/password.png'
+import addToCart from '../src/assets/project-images/addToCart.png'
+
 
 
 
@@ -49,7 +39,7 @@ export default [
     id: nanoid(),
     name: 'VANLIFE',
     url: 'https://van-life-mj-portfolio.netlify.app/',
-    imageSquare: vanLifeSquare,
+    imageSquare: vanLife,
     image: vanLife,
     type: 'React',
     github: 'https://github.com/mjlearn13/van-life.git',
@@ -89,7 +79,7 @@ export default [
     id: nanoid(),
     name: 'Notes',
     url: 'https://notes-mj-portfolio.netlify.app/',
-    imageSquare: notesAppSquare,
+    imageSquare: notesApp,
     image: notesApp,
     type: 'React',
     github: 'https://github.com/mjlearn13/notes-app.git',
@@ -100,7 +90,7 @@ export default [
     id: nanoid(),
     name: 'Add to Cart',
     url: 'https://add-to-cart-mj-portfolio.netlify.app/',
-    imageSquare: addToCartSquare,
+    imageSquare: addToCart,
     image: addToCart,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/add-to-cart.git',
@@ -116,7 +106,7 @@ export default [
     id: nanoid(),
     name: 'Pic Some',
     url: 'https://pic-some-mj-portfolio.netlify.app/',
-    imageSquare: picSomeSquare,
+    imageSquare: picSome,
     image: picSome,
     type: 'React',
     github: 'https://github.com/mjlearn13/pic-some.git',
@@ -127,7 +117,7 @@ export default [
     id: nanoid(),
     name: 'Speed Typing',
     url: 'https://speed-typing-game-mj-portfolio.netlify.app/',
-    imageSquare: speedTypingGameSquare,
+    imageSquare: speedTypingGame,
     image: speedTypingGame,
     type: 'React',
     github: 'https://github.com/mjlearn13/speedTypingGame.git',
@@ -138,7 +128,7 @@ export default [
     id: nanoid(),
     name: 'Tenzies',
     url: 'https://tenzies-mj-portfilio.netlify.app/',
-    imageSquare: tenziesSquare,
+    imageSquare: tenzies,
     image: tenzies,
     type: 'React',
     github: 'https://github.com/mjlearn13/tenzies.git',
@@ -160,7 +150,7 @@ export default [
     id: nanoid(),
     name: 'Twimba',
     url: 'https://mjlearn13.github.io/twitter-clone/',
-    imageSquare: twimbaSquare,
+    imageSquare: twimba,
     image: twimba,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/twitter-clone.git',
@@ -171,7 +161,7 @@ export default [
     id: nanoid(),
     name: 'Splash',
     url: 'https://mjlearn13.github.io/splash-page/',
-    imageSquare: splashSquare,
+    imageSquare: splash,
     image: splash,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/splash-page.git',
@@ -193,8 +183,8 @@ export default [
     id: nanoid(),
     name: 'Kanban',
     url: 'https://mjlearn13.github.io/drag-and-drop/',
-    imageSquare: dragSquare,
-    image: drag,
+    imageSquare: kanban,
+    image: kanban,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/drag-and-drop.git',
     desc: '',
@@ -226,7 +216,7 @@ export default [
     id: nanoid(),
     name: 'Nasa Pictures',
     url: 'https://mjlearn13.github.io/nasa-api-pictures/',
-    imageSquare: nasaSquare,
+    imageSquare: nasa,
     image: nasa,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/nasa-api-pictures.git',
@@ -237,7 +227,7 @@ export default [
     id: nanoid(),
     name: 'Spock Rock',
     url: 'https://mjlearn13.github.io/spock-rock-game/',
-    imageSquare: spockSquare,
+    imageSquare: spock,
     image: spock,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/spock-rock-game.git',

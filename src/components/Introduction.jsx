@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
-import mjHeadShot from '../assets/mj-headShot.jpg'
-import mjBjj from '../assets/mj-bjj.jpeg'
+import mjHeadShot from '../assets/mjPhotos/mj-headShot.jpg'
+import mjBjj from '../assets/mjPhotos/mj-bjj.jpeg'
 import reactLogo from '../assets/logos/reactLogo.png'
 import javaScriptLogo from '../assets/logos/javaScriptLogo.png'
 import cssLogo from '../assets/logos/cssLogo.png'

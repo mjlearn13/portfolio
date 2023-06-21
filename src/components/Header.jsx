@@ -1,5 +1,5 @@
 import {Link, NavLink} from 'react-router-dom'
-import devMJ from '../assets/devMJLogo.png'
+import devMJ from '../assets/logos/devMJLogo.png'
 
 
 
