@@ -6,7 +6,7 @@ import javaScriptLogo from '../assets/logos/javaScriptLogo.png'
 import cssLogo from '../assets/logos/cssLogo.png'
 import firebaseLogo from '../assets/logos/firebaseLogo.png'
 import gitLogo from '../assets/logos/gitLogo.png'
-import githubLogo from '../assets/logos/gitHubLogo.png'
+import githubLogo from '../assets/logos/githubLogo.png'
 import htmlLogo from '../assets/logos/htmlLogo.png'
 
 export default function Introduction() {
