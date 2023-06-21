@@ -4,18 +4,8 @@ export default function Footer(){
                 <a href="mailto:mjlearn13@gmail.com" className="footer__link">mjlearn13@gmail.com</a>
                 <ul className="social-list">
                     <li className="social-list__item">
-                        <a className="social-list__link" href="https://codepen.io">
-                            <i className="fab fa-codepen"></i>
-                        </a>
-                    </li>
-                    <li className="social-list__item">
-                        <a className="social-list__link" href="http://dribbble.com">
-                            <i className="fab fa-dribbble"></i>
-                        </a>
-                    </li>
-                    <li className="social-list__item">
-                        <a className="social-list__link" href="https://twitter.com">
-                            <i className="fab fa-twitter"></i>
+                        <a className="social-list__link" href="https://linkedin.com">
+                            <i className="fab fa-linkedin"></i>
                         </a>
                     </li>
                     <li className="social-list__item">
