@@ -505,10 +505,6 @@ nav a:focus {
     outline: none;
 }
 
-/* .project-type.selected {
-    border-bottom: 1px solid var(--color-accent);
-} */
-
 .project-type.react:hover, .project-type.react.selected {
     transform: scale(1.47);
 }
@@ -568,6 +564,7 @@ nav a:focus {
     justify-content: center;
     margin: 2em 0 0;
     padding: 0;
+    font-size: var(--fs-h2);
 }
 
 .social-list__item {
