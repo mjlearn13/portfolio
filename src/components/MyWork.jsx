@@ -44,7 +44,7 @@ export default function MyWork() {
         <div className="portfolio__card">
           <p>{project.name}</p>
           <img
-            src={project.imageSquare}
+            src={project.image}
             alt={`{${project.name} web app}`}
             className="portfolio__img"
             title={project.name}
