@@ -127,7 +127,7 @@ export default [
     image: splash,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/splash-page.git',
-    desc: '',
+    desc: 'Splash was built from a design using the Figma platform.  The web app has a toggle feature allowing us to choose a different background',
     topics: ['DOM Basics', 'Deploying with GitHub Pages'],
   },
   {
@@ -137,7 +137,7 @@ export default [
     image: paint,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/paint-clone.git',
-    desc: '',
+    desc: 'Paint Clone is a basic version of MS Paint. It allows us to save, load and clear from localStorage and save an image file.',
     topics: [
       'Advanced HTML Canvas',
       'localStorage',
@@ -151,8 +151,13 @@ export default [
     image: kanban,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/drag-and-drop.git',
-    desc: '',
-    topics: ['Deploying with GitHub Pages'],
+    desc: 'Kanban Board is a task tracker web app. The board is divided into different columns, the tasks in each column can be moved to the other columns and edited.  The app showcases the Drag and Drop API and the data is stored in local storage. The app uses content editable attributes in order to add and modify items.',
+    topics: [
+      'Drag and Drop API',
+      'Editable Content',
+      'focusOut Event',
+      'Deploying with GitHub Pages',
+    ],
   },
   {
     id: nanoid(),
@@ -161,7 +166,7 @@ export default [
     image: calculator,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/calculator.git',
-    desc: '',
+    desc: 'Calculator is a mobile responsive basic calculator web app.  It has a gradient background and uses CSS Grid.',
     topics: ['Math Methods', 'Deploying with GitHub Pages'],
   },
   {
@@ -171,11 +176,10 @@ export default [
     image: math,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/math-sprint-game.git',
-    desc: '',
+    desc: 'Math Sprint is a math based game. It highlights the usage of timing events as well as generating random correct and incorrect math equations. From the splash screen we can select our round based on amount of questions.  There is a best score that is stored in local storage for each corresponding amount of questions. There is a random amount of correct and incorrect answers. We get a score page with our time, base time and penalties.',
     topics: [
       'SetInterval',
       'DOM',
-      'Array Methods',
       'localStorage',
       'Deploying with GitHub Pages',
     ],
@@ -187,7 +191,7 @@ export default [
     image: nasa,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/nasa-api-pictures.git',
-    desc: '',
+    desc: 'Nasa Pictures is a mobile responsive web app that uses the Nasa API to get random astronomy pictures of the day.  The results are formatted into cards with relevant information.  When an image is clicked we can view the full resolution image of that image. We also have the ability to add or remove images to our favourites page using local storage. The images are lazy loaded to improve performance.',
     topics: [
       'Fetch',
       'Async/Await',
@@ -204,7 +208,7 @@ export default [
     image: spock,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/spock-rock-game.git',
-    desc: '',
+    desc: 'Spock Rock is a mobile responsive game similar to Rock Paper Scissors.  There are five possible choices.  When you hover over each image there is a title for each. The user will select a icon to select their weapon, the logic will allow the computer to make a random selection and then it will evaluate which player won or if they choose the same thing there is a tie.',
     topics: ['Confetti.js', 'Modules', 'Deploying with GitHub Pages'],
   },
   {
@@ -214,7 +218,7 @@ export default [
     image: video,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/video-player.git',
-    desc: '',
+    desc: 'Video Player is a custom video player with its own custom UI with which we can control it&#39;s functionality.  If we click anywhere on the video we can play or pause. If we hover toward the bottom our controls UI will load.  We have a mute and unmute button and can drag the volume to different levels. We have the ability with our progress bar to jump around in the video. It allows us to track the current time in the videos as well as duration and also select a playback speed. We can also toggle full-screen.',
     topics: ['HTML5 Video API', 'Deploying with GitHub Pages'],
   },
   {
@@ -283,7 +287,7 @@ export default [
     image: bookmark,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/bookmark-app.git',
-    desc: '',
+    desc: 'Bookmark is a mobile responsive web app that allows users to save bookmarks and be able to click on the links to go to those websites. It has localStorage functionality, allowing users to refresh the page or come back to the page another day and the bookmarks will still be there.',
     topics: ['DOM', 'localStorage', 'Deploying with GitHub Pages'],
   },
   {
@@ -308,7 +312,7 @@ export default [
     image: form,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/form-validation.git',
-    desc: '',
+    desc: 'Form Validation builds on HTML form validation with JavaScript to validate our form data on the front-end.  Input fields have a red outline until fields are filled out, at which point the outline turns green. It specifies specific formats for every field, that if not followed will result in red outline. We get a message bellow the register button if passwords do not match.',
     topics: ['DOM', 'Forms', 'Deploying with GitHub Pages'],
   },
   {
