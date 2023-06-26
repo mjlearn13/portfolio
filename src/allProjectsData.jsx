@@ -52,8 +52,14 @@ export default [
     image: notesApp,
     type: 'React',
     github: 'https://github.com/mjlearn13/notes-app.git',
-    desc: '',
-    topics: ['Deploying with Netlify', 'Using Firebase for data storage'],
+    desc: 'Notes is a Mark Down version of a Apple Notes clone.  We can toggle between preview and write.  The app implements the react-mde package for the editor.',
+    topics: [
+      'Lazy State Initialisation',
+      'State',
+      'Debouncing',
+      'Using Firebase for data storage',
+      'Deploying with Netlify',
+    ],
   },
   {
     id: nanoid(),
@@ -66,8 +72,8 @@ export default [
     topics: [
       'Progressive web app',
       'Web Application Manifest',
-      'Deploying with Netlify',
       'Using Firebase for data storage',
+      'Deploying with Netlify',
     ],
   },
   {
@@ -97,8 +103,8 @@ export default [
     image: tenzies,
     type: 'React',
     github: 'https://github.com/mjlearn13/tenzies.git',
-    desc: '',
-    topics: ['Deploying with Netlify'],
+    desc: 'Tenzies is a dice game. Roll until all dice are the same.  Click each die to freeze it at its current value between rolls.',
+    topics: ['State', 'conditional rendering', 'Deploying with Netlify'],
   },
   {
     id: nanoid(),
@@ -107,8 +113,8 @@ export default [
     image: memeGenerator,
     type: 'React',
     github: 'https://github.com/mjlearn13/meme-generator.git',
-    desc: '',
-    topics: ['Deploying with Netlify'],
+    desc: 'Meme Generator is an Interactive web app. When it loads It retrieves 100 images from an api and gives the user the ability to enter the text that shows up on top and bottom and to also get a new meme image.',
+    topics: ['Event Listeners', 'State', 'Conditional rendering', 'Forms', 'Side effects', 'Deploying with Netlify'],
   },
   {
     id: nanoid(),
@@ -117,8 +123,13 @@ export default [
     image: twimba,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/twitter-clone.git',
-    desc: '',
-    topics: ['Deploying with GitHub Pages'],
+    desc: 'Twimba is a Twitter Clone and mimics some of Twitters’ functionality.  The tweets are likeable, unlikable, retweetable and un-retweetable.  We can review replies, write tweets and post them to our feed. ',
+    topics: [
+      'CDN - add Icons, generate UUIDs',
+      'Data Attributes',
+      'Conditional Rendering',
+      'Deploying with GitHub Pages',
+    ],
   },
   {
     id: nanoid(),
@@ -191,7 +202,7 @@ export default [
     image: nasa,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/nasa-api-pictures.git',
-    desc: 'Nasa Pictures is a mobile responsive web app that uses the Nasa API to get random astronomy pictures of the day.  The results are formatted into cards with relevant information.  When an image is clicked we can view the full resolution image of that image. We also have the ability to add or remove images to our favourites page using local storage. The images are lazy loaded to improve performance.',
+    desc: 'Nasa Pictures is a mobile responsive web app that uses the Nasa API to get random astronomy pictures of the day.  The results are formatted into cards with relevant information.  When an image is clicked we can view the full resolution image of that image. We also have the ability to add or remove images to our favourites page using localStorage. The images are lazy loaded to improve performance.',
     topics: [
       'Fetch',
       'Async/Await',
@@ -208,7 +219,7 @@ export default [
     image: spock,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/spock-rock-game.git',
-    desc: 'Spock Rock is a mobile responsive game similar to Rock Paper Scissors.  There are five possible choices.  When you hover over each image there is a title for each. The user will select a icon to select their weapon, the logic will allow the computer to make a random selection and then it will evaluate which player won or if they choose the same thing there is a tie.',
+    desc: 'Spock Rock is a mobile responsive game similar to Rock Paper Scissors.  There are five possible choices.  When you hover over each image there is a title for each. The user will select an icon to select their weapon, the logic will allow the computer to make a random selection and then it will evaluate which player won or if they choose the same thing there is a tie.',
     topics: ['Confetti.js', 'Modules', 'Deploying with GitHub Pages'],
   },
   {
@@ -218,7 +229,7 @@ export default [
     image: video,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/video-player.git',
-    desc: 'Video Player is a custom video player with its own custom UI with which we can control it&#39;s functionality.  If we click anywhere on the video we can play or pause. If we hover toward the bottom our controls UI will load.  We have a mute and unmute button and can drag the volume to different levels. We have the ability with our progress bar to jump around in the video. It allows us to track the current time in the videos as well as duration and also select a playback speed. We can also toggle full-screen.',
+    desc: 'Video Player is a custom video player with its own custom UI with which we can control the functionality.  If we click anywhere on the video we can play or pause. If we hover toward the bottom our controls UI will load.  We have a mute and unmute button and can drag the volume to different levels. We have the ability with our progress bar to jump around in the video. It allows us to track the current time in the video as well as duration and also select a playback speed. We can also toggle full-screen.',
     topics: ['HTML5 Video API', 'Deploying with GitHub Pages'],
   },
   {
@@ -253,7 +264,7 @@ export default [
     image: infinite,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/infinite-scroll.git',
-    desc: 'Infinite Scroll is a mobile responsive, infinite scroll functionality web app.  A network request is made when we scroll to bottom of page, but it happens before we reach the bottom, so we do not see it. We are seamlessly scrolling forever. The photos are fetched from the unsplash api. We see a description when we hover over an image. If we click on an image we can see that image on the Unsplash website so we can see the author or download the photo if we want.',
+    desc: 'Infinite Scroll is a mobile responsive, infinite scroll functionality web app.  A network request is made when we scroll to the bottom of the page, but it happens before we reach the bottom, so we do not see it. We are seamlessly scrolling forever. The photos are fetched from the unsplash api. We see a description when we hover over an image. If we click on an image we can see that image on the Unsplash website so we can see the author or download the photo if we want.',
     topics: [
       'Fetch',
       'Async/Await',
@@ -297,7 +308,7 @@ export default [
     image: countdown,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/custom-countdown.git',
-    desc: 'Custom Countdown is a mobile responsive web app which allows users to enter a title of something they want to count down to and select or enter the date.  It has a video background and we store the countdown information in local storage, so it allows users to refresh the page or come back to the page another day and the countdown will still be running.',
+    desc: 'Custom Countdown is a mobile responsive web app which allows users to enter a title of something they want to count down to and select or enter the date.  It has a video background and we store the countdown information in localStorage, so it allows users to refresh the page or come back to the page another day and the countdown will still be running.',
     topics: [
       'Date object',
       'Timing events setInterval and clearInterval',
@@ -347,7 +358,7 @@ export default [
     image: music,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/music-player.git',
-    desc: 'Music Player display all relevant information about the song currently playing. It uses the HTML5 audio api to control stop, start and pause.',
+    desc: 'Music Player displays all relevant information about the song currently playing. It uses the HTML5 Audio API to control stop, start and pause.',
     topics: ['HTML5 Audio API', 'Deploying with GitHub Pages'],
   },
   {
@@ -357,7 +368,7 @@ export default [
     image: picture,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/picture-in-picture.git',
-    desc: 'Picture in Picture is designed for the desktop. Once picture-in-picture support is enabled we get a mini window on the bottom-right side of the screen by default, which we can move around. We then use the screen capture api to select a screen or a portion of a screen to capture in the form of a media stream. We can resize it, move it and it will always stay on top. ',
+    desc: 'Picture in Picture is designed for the desktop. Once picture-in-picture support is enabled we get a mini window on the bottom-right side of the screen by default, which we can move around. We then use the Screen Capture API to select a screen or a portion of a screen to capture in the form of a media stream. We can resize it, move it and it will always stay on top. ',
     topics: [
       'Picture-in-Picture API',
       'Screen Capture API',
@@ -396,8 +407,8 @@ export default [
     image: lead,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/lead-tracker.git',
-    desc: '',
-    topics: ['Deploying with GitHub Pages'],
+    desc: 'Lead Tracker is a Chrome Extension. On visiting a website, open your browser extensions, click on Leads Tracker, you can now input a website address and save it or hit the save tab and Leads Tracker will save and display the url.',
+    topics: ['localStorage', 'Event Listeners', 'Deploying with GitHub Pages'],
   },
   {
     id: nanoid(),
