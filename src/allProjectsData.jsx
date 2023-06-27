@@ -83,8 +83,8 @@ export default [
     image: picSome,
     type: 'React',
     github: 'https://github.com/mjlearn13/pic-some.git',
-    desc: '',
-    topics: ['Deploying with Netlify'],
+    desc: 'Pic Some web app allows users to favourite, un-favourite and add photos they like to a cart and then checkout. ',
+    topics: ['State', 'effects', 'context', 'react-router', 'Deploying with Netlify'],
   },
   {
     id: nanoid(),
@@ -93,8 +93,8 @@ export default [
     image: speedTypingGame,
     type: 'React',
     github: 'https://github.com/mjlearn13/speedTypingGame.git',
-    desc: '',
-    topics: ['Deploying with Netlify'],
+    desc: 'Speed Typing web app is a game that will calculate how many words you can type in a set amount of time.',
+    topics: ['State', 'effects', 'ref', 'Deploying with Netlify'],
   },
   {
     id: nanoid(),
@@ -114,7 +114,14 @@ export default [
     type: 'React',
     github: 'https://github.com/mjlearn13/meme-generator.git',
     desc: 'Meme Generator is an Interactive web app. When it loads It retrieves 100 images from an api and gives the user the ability to enter the text that shows up on top and bottom and to also get a new meme image.',
-    topics: ['Event Listeners', 'State', 'Conditional rendering', 'Forms', 'Side effects', 'Deploying with Netlify'],
+    topics: [
+      'Event Listeners',
+      'State',
+      'Conditional rendering',
+      'Forms',
+      'Side effects',
+      'Deploying with Netlify',
+    ],
   },
   {
     id: nanoid(),
@@ -333,7 +340,7 @@ export default [
     image: basketball,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/basketball-scorecard.git',
-    desc: '',
+    desc: 'Basketball Scorecard web app keeps track of the total score for each team.  We can increment the scores by 1, 2 or 3 points.',
     topics: ['Deploying with GitHub Pages'],
   },
   {
@@ -397,8 +404,8 @@ export default [
     image: dashboard,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/dashboard.git',
-    desc: '',
-    topics: ['Deploying with GitHub Pages'],
+    desc: 'Dashboard web app is a clone of the Momentum Dashboard.  It displays useful information such as the current weather at your location, the current time at your location, todays price of Dogecoin and a random image from Unsplash with the author, as the background.',
+    topics: ['API', 'fetch', 'geolocation', 'Deploying with GitHub Pages'],
   },
   {
     id: nanoid(),
@@ -417,7 +424,7 @@ export default [
     image: password,
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/password-generator.git',
-    desc: '',
+    desc: 'Password Generator web app will generate two random passwords, 15 characters in length. It uses the Math object',
     topics: ['Deploying with GitHub Pages'],
   },
 ]
