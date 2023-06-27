@@ -30,11 +30,29 @@ import dashboard from '../src/assets/project-images/dashboard.png'
 import lead from '../src/assets/project-images/lead.png'
 import password from '../src/assets/project-images/password.png'
 import addToCart from '../src/assets/project-images/addToCart.png'
+import portfolio from '../src/assets/project-images/portfolio.png'
 
 
 
 
 export default [
+  {
+    id: nanoid(),
+    name: 'MJ Portfolio',
+    url: 'https://mj-portfolio13.netlify.app/',
+    image: portfolio,
+    type: 'React',
+    github: 'https://github.com/mjlearn13/portfolio',
+    desc: 'MJ Portfolio is a single page web app showcasing the projects I have built.  It is built using React Router v6, the most popular routing library for React applications and one of the most downloaded React support libraries ever.',
+    topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
+      'React',
+      'React-Router 6',
+      'Deploying with Netlify',
+    ],
+  },
   {
     id: nanoid(),
     name: 'VANLIFE',
@@ -43,7 +61,16 @@ export default [
     type: 'React',
     github: 'https://github.com/mjlearn13/van-life.git',
     desc: 'VanLife is a single page web app for renting decked-out travel vans for your next road trip adventure!  It is built using React Router v6, the most popular routing library for React applications and one of the most downloaded React support libraries ever.',
-    topics: ['Deploying with Netlify', 'Using Firebase for data storage'],
+    topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
+      'React',
+      'React-Router 6',
+      'State',
+      'Deploying with Netlify',
+      'Using Firebase for data storage',
+    ],
   },
   {
     id: nanoid(),
@@ -54,6 +81,10 @@ export default [
     github: 'https://github.com/mjlearn13/notes-app.git',
     desc: 'Notes is a Mark Down version of a Apple Notes clone.  We can toggle between preview and write.  The app implements the react-mde package for the editor.',
     topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
+      'React',
       'Lazy State Initialisation',
       'State',
       'Debouncing',
@@ -70,6 +101,10 @@ export default [
     github: 'https://github.com/mjlearn13/add-to-cart.git',
     desc: "Add to Cart is a Progressive web app, used for keeping track of a shopping list. It's not technically a native mobile app, it's a web app that's disguised as a mobile app.  The web application manifest file was used to transform the web application to make it look like a native app on our phone. Our app will look and feel like a native mobile app and we will also be able to put it on the home screen of our phones for both iOS and Android.",
     topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
+      'React',
       'Progressive web app',
       'Web Application Manifest',
       'Using Firebase for data storage',
@@ -84,7 +119,17 @@ export default [
     type: 'React',
     github: 'https://github.com/mjlearn13/pic-some.git',
     desc: 'Pic Some web app allows users to favourite, un-favourite and add photos they like to a cart and then checkout. ',
-    topics: ['State', 'effects', 'context', 'react-router', 'Deploying with Netlify'],
+    topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
+      'React',
+      'State',
+      'effects',
+      'context',
+      'react-router',
+      'Deploying with Netlify',
+    ],
   },
   {
     id: nanoid(),
@@ -94,7 +139,16 @@ export default [
     type: 'React',
     github: 'https://github.com/mjlearn13/speedTypingGame.git',
     desc: 'Speed Typing web app is a game that will calculate how many words you can type in a set amount of time.',
-    topics: ['State', 'effects', 'ref', 'Deploying with Netlify'],
+    topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
+      'React',
+      'State',
+      'effects',
+      'ref',
+      'Deploying with Netlify',
+    ],
   },
   {
     id: nanoid(),
@@ -104,7 +158,15 @@ export default [
     type: 'React',
     github: 'https://github.com/mjlearn13/tenzies.git',
     desc: 'Tenzies is a dice game. Roll until all dice are the same.  Click each die to freeze it at its current value between rolls.',
-    topics: ['State', 'conditional rendering', 'Deploying with Netlify'],
+    topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
+      'React',
+      'State',
+      'conditional rendering',
+      'Deploying with Netlify',
+    ],
   },
   {
     id: nanoid(),
@@ -115,6 +177,10 @@ export default [
     github: 'https://github.com/mjlearn13/meme-generator.git',
     desc: 'Meme Generator is an Interactive web app. When it loads It retrieves 100 images from an api and gives the user the ability to enter the text that shows up on top and bottom and to also get a new meme image.',
     topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
+      'React',
       'Event Listeners',
       'State',
       'Conditional rendering',
@@ -132,6 +198,9 @@ export default [
     github: 'https://github.com/mjlearn13/twitter-clone.git',
     desc: 'Twimba is a Twitter Clone and mimics some of Twitters’ functionality.  The tweets are likeable, unlikable, retweetable and un-retweetable.  We can review replies, write tweets and post them to our feed. ',
     topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
       'CDN - add Icons, generate UUIDs',
       'Data Attributes',
       'Conditional Rendering',
@@ -146,7 +215,13 @@ export default [
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/splash-page.git',
     desc: 'Splash was built from a design using the Figma platform.  The web app has a toggle feature allowing us to choose a different background',
-    topics: ['DOM Basics', 'Deploying with GitHub Pages'],
+    topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
+      'DOM Basics',
+      'Deploying with GitHub Pages',
+    ],
   },
   {
     id: nanoid(),
@@ -157,6 +232,9 @@ export default [
     github: 'https://github.com/mjlearn13/paint-clone.git',
     desc: 'Paint Clone is a basic version of MS Paint. It allows us to save, load and clear from localStorage and save an image file.',
     topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
       'Advanced HTML Canvas',
       'localStorage',
       'Deploying with GitHub Pages',
@@ -171,6 +249,9 @@ export default [
     github: 'https://github.com/mjlearn13/drag-and-drop.git',
     desc: 'Kanban Board is a task tracker web app. The board is divided into different columns, the tasks in each column can be moved to the other columns and edited.  The app showcases the Drag and Drop API and the data is stored in local storage. The app uses content editable attributes in order to add and modify items.',
     topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
       'Drag and Drop API',
       'Editable Content',
       'focusOut Event',
@@ -185,7 +266,13 @@ export default [
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/calculator.git',
     desc: 'Calculator is a mobile responsive basic calculator web app.  It has a gradient background and uses CSS Grid.',
-    topics: ['Math Methods', 'Deploying with GitHub Pages'],
+    topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
+      'Math Methods',
+      'Deploying with GitHub Pages',
+    ],
   },
   {
     id: nanoid(),
@@ -196,6 +283,9 @@ export default [
     github: 'https://github.com/mjlearn13/math-sprint-game.git',
     desc: 'Math Sprint is a math based game. It highlights the usage of timing events as well as generating random correct and incorrect math equations. From the splash screen we can select our round based on amount of questions.  There is a best score that is stored in local storage for each corresponding amount of questions. There is a random amount of correct and incorrect answers. We get a score page with our time, base time and penalties.',
     topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
       'SetInterval',
       'DOM',
       'localStorage',
@@ -211,6 +301,9 @@ export default [
     github: 'https://github.com/mjlearn13/nasa-api-pictures.git',
     desc: 'Nasa Pictures is a mobile responsive web app that uses the Nasa API to get random astronomy pictures of the day.  The results are formatted into cards with relevant information.  When an image is clicked we can view the full resolution image of that image. We also have the ability to add or remove images to our favourites page using localStorage. The images are lazy loaded to improve performance.',
     topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
       'Fetch',
       'Async/Await',
       'NASA API',
@@ -227,7 +320,14 @@ export default [
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/spock-rock-game.git',
     desc: 'Spock Rock is a mobile responsive game similar to Rock Paper Scissors.  There are five possible choices.  When you hover over each image there is a title for each. The user will select an icon to select their weapon, the logic will allow the computer to make a random selection and then it will evaluate which player won or if they choose the same thing there is a tie.',
-    topics: ['Confetti.js', 'Modules', 'Deploying with GitHub Pages'],
+    topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
+      'Confetti.js',
+      'Modules',
+      'Deploying with GitHub Pages',
+    ],
   },
   {
     id: nanoid(),
@@ -237,7 +337,13 @@ export default [
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/video-player.git',
     desc: 'Video Player is a custom video player with its own custom UI with which we can control the functionality.  If we click anywhere on the video we can play or pause. If we hover toward the bottom our controls UI will load.  We have a mute and unmute button and can drag the volume to different levels. We have the ability with our progress bar to jump around in the video. It allows us to track the current time in the video as well as duration and also select a playback speed. We can also toggle full-screen.',
-    topics: ['HTML5 Video API', 'Deploying with GitHub Pages'],
+    topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
+      'HTML5 Video API',
+      'Deploying with GitHub Pages',
+    ],
   },
   {
     id: nanoid(),
@@ -247,7 +353,14 @@ export default [
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/animated-navigation.git',
     desc: 'Animated Nav is a mobile responsive website that has advanced CSS Animations and uses CSS Variables.',
-    topics: ['CSS Animations', 'CSS Variables', 'Deploying with GitHub Pages'],
+    topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
+      'CSS Animations',
+      'CSS Variables',
+      'Deploying with GitHub Pages',
+    ],
   },
   {
     id: nanoid(),
@@ -258,6 +371,9 @@ export default [
     github: 'https://github.com/mjlearn13/animated-template.git',
     desc: 'Animated Template is a website built from a Creative Tim Template. It has been modified adding  text, images and icons.  It has animations using a third party animate on scroll library.  It uses defer, to defer the execution of the script until the very end of html parsing. This allows it to download the JavaScript as soon as possible, not blocking parsing of html. It has some content above the fold which shows up right away, making our website look faster while allowing the JavaScript to load and execute.',
     topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
       'Defer attribute on script tag',
       'Tailwind CSS',
       'Animate on Scroll Library',
@@ -273,6 +389,9 @@ export default [
     github: 'https://github.com/mjlearn13/infinite-scroll.git',
     desc: 'Infinite Scroll is a mobile responsive, infinite scroll functionality web app.  A network request is made when we scroll to the bottom of the page, but it happens before we reach the bottom, so we do not see it. We are seamlessly scrolling forever. The photos are fetched from the unsplash api. We see a description when we hover over an image. If we click on an image we can see that image on the Unsplash website so we can see the author or download the photo if we want.',
     topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
       'Fetch',
       'Async/Await',
       'Unsplash API',
@@ -291,6 +410,9 @@ export default [
     github: 'https://github.com/mjlearn13/joke-teller.git',
     desc: 'Joke Teller is an animated gif robot that will tell you a joke out loud if you ask it to.  It calls a joke api, to get a random joke, then it will pass that to a text to speech api and it will tell us that joke.',
     topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
       'Fetch',
       'Async/Await',
       'Joke API',
@@ -306,7 +428,14 @@ export default [
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/bookmark-app.git',
     desc: 'Bookmark is a mobile responsive web app that allows users to save bookmarks and be able to click on the links to go to those websites. It has localStorage functionality, allowing users to refresh the page or come back to the page another day and the bookmarks will still be there.',
-    topics: ['DOM', 'localStorage', 'Deploying with GitHub Pages'],
+    topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
+      'DOM',
+      'localStorage',
+      'Deploying with GitHub Pages',
+    ],
   },
   {
     id: nanoid(),
@@ -317,6 +446,9 @@ export default [
     github: 'https://github.com/mjlearn13/custom-countdown.git',
     desc: 'Custom Countdown is a mobile responsive web app which allows users to enter a title of something they want to count down to and select or enter the date.  It has a video background and we store the countdown information in localStorage, so it allows users to refresh the page or come back to the page another day and the countdown will still be running.',
     topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
       'Date object',
       'Timing events setInterval and clearInterval',
       'localStorage',
@@ -331,7 +463,14 @@ export default [
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/form-validation.git',
     desc: 'Form Validation builds on HTML form validation with JavaScript to validate our form data on the front-end.  Input fields have a red outline until fields are filled out, at which point the outline turns green. It specifies specific formats for every field, that if not followed will result in red outline. We get a message bellow the register button if passwords do not match.',
-    topics: ['DOM', 'Forms', 'Deploying with GitHub Pages'],
+    topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
+      'DOM',
+      'Forms',
+      'Deploying with GitHub Pages',
+    ],
   },
   {
     id: nanoid(),
@@ -341,7 +480,7 @@ export default [
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/basketball-scorecard.git',
     desc: 'Basketball Scorecard web app keeps track of the total score for each team.  We can increment the scores by 1, 2 or 3 points.',
-    topics: ['Deploying with GitHub Pages'],
+    topics: ['HTML5', 'CSS', 'JavaScript', 'Deploying with GitHub Pages'],
   },
   {
     id: nanoid(),
@@ -352,6 +491,9 @@ export default [
     github: 'https://github.com/mjlearn13/light-dark-mode.git',
     desc: 'Light Dark Mode is a basic website.  It has custom google fonts, an SVG pattern background from Hero Patterns, a navigation that changes colour as we hover over it and if we click on one of these it will smoothly scroll to that section of the page.  It has illustrations from Undraw that match our primary colour which is orange.  We have a series of buttons as well as a text box and a section with FontAwesome icons that also change colour as you hover over them. If we flip the switch on the light/dark mode it will change to dark mode and an icon of the moon appears and everything will change colour.',
     topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
       'CSS Variables',
       'DOM',
       'localStorage',
@@ -366,7 +508,13 @@ export default [
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/music-player.git',
     desc: 'Music Player displays all relevant information about the song currently playing. It uses the HTML5 Audio API to control stop, start and pause.',
-    topics: ['HTML5 Audio API', 'Deploying with GitHub Pages'],
+    topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
+      'HTML5 Audio API',
+      'Deploying with GitHub Pages',
+    ],
   },
   {
     id: nanoid(),
@@ -377,6 +525,9 @@ export default [
     github: 'https://github.com/mjlearn13/picture-in-picture.git',
     desc: 'Picture in Picture is designed for the desktop. Once picture-in-picture support is enabled we get a mini window on the bottom-right side of the screen by default, which we can move around. We then use the Screen Capture API to select a screen or a portion of a screen to capture in the form of a media stream. We can resize it, move it and it will always stay on top. ',
     topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
       'Picture-in-Picture API',
       'Screen Capture API',
       'Deploying with GitHub Pages',
@@ -391,6 +542,9 @@ export default [
     github: 'https://github.com/mjlearn13/quote-generator.git',
     desc: 'Quote Generator is a mobile responsive, random quote generator web app. It makes an asynchronous fetch request to a rest API in order to get the quotes. It uses a loader between prolonged new quote requests, signalling to the user that something is happening behind the scenes.  It has a button that opens Twitter in a new tab allowing user to tweet the quote once they are logged in. ',
     topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
       'Fetch',
       'Async/Await',
       'Quote API',
@@ -405,7 +559,15 @@ export default [
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/dashboard.git',
     desc: 'Dashboard web app is a clone of the Momentum Dashboard.  It displays useful information such as the current weather at your location, the current time at your location, todays price of Dogecoin and a random image from Unsplash with the author, as the background.',
-    topics: ['API', 'fetch', 'geolocation', 'Deploying with GitHub Pages'],
+    topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
+      'API',
+      'fetch',
+      'geolocation',
+      'Deploying with GitHub Pages',
+    ],
   },
   {
     id: nanoid(),
@@ -415,7 +577,14 @@ export default [
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/lead-tracker.git',
     desc: 'Lead Tracker is a Chrome Extension. On visiting a website, open your browser extensions, click on Leads Tracker, you can now input a website address and save it or hit the save tab and Leads Tracker will save and display the url.',
-    topics: ['localStorage', 'Event Listeners', 'Deploying with GitHub Pages'],
+    topics: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
+      'localStorage',
+      'Event Listeners',
+      'Deploying with GitHub Pages',
+    ],
   },
   {
     id: nanoid(),
@@ -425,7 +594,7 @@ export default [
     type: 'JavaScript',
     github: 'https://github.com/mjlearn13/password-generator.git',
     desc: 'Password Generator web app will generate two random passwords, 15 characters in length. It uses the Math object',
-    topics: ['Deploying with GitHub Pages'],
+    topics: ['HTML5', 'CSS', 'JavaScript', 'Deploying with GitHub Pages'],
   },
 ]
 
