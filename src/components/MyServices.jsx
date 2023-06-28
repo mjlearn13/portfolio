@@ -26,6 +26,18 @@ export default function MyServices() {
       <h2 className="section__title section__title--services">What I do</h2>
       <div className="services">
         <div className="service">
+          <h3>Development</h3>
+          <p>
+            As a Frontend Developer with 2 years of experience, I have a strong
+            focus on frontend development using technologies such as HTML5,
+            CSS3, JavaScript, React and React Router 6. I have good knowledge of
+            the best practices for web design, user experience, and speed. I
+            possess excellent problem-solving, communication and teamwork
+            skills.
+          </p>
+        </div>
+
+        <div className="service">
           <h3>Design</h3>
           <p>
             I strive to create beautiful and intuitive web apps, with both
@@ -34,20 +46,13 @@ export default function MyServices() {
         </div>
 
         <div className="service">
-          <h3>Development</h3>
+          <h3>Ongoing Learning</h3>
           <p>
-            I am a versatile frontend developer with a speciality in React JS. I
-            also have a solid grip of the fundamentals of web development using
-            HTML, CSS, and JavaScript.
-          </p>
-        </div>
-
-        <div className="service">
-          <h3>Development</h3>
-          <p>
-            I am a versatile frontend developer with a speciality in React JS. I
-            also have a solid grip of the fundamentals of web development using
-            HTML, CSS, and JavaScript.
+            I currently have a basic understanding of the frontend technologies
+            like Typescript, Unit Testing, Figma and Markdown, however i&apos;m
+            constantly learning and improving. I am passionate about using my
+            knowledge and experience to help organisations achieve their goals
+            through the use of technology.
           </p>
         </div>
       </div>

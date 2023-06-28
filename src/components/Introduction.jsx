@@ -36,7 +36,7 @@ export default function Introduction() {
           Hi, I am <strong>Manmeet Johal</strong>
         </h1>
         <p className="section__subtitle section__subtitle--intro">
-          Front-End Developer
+          Frontend React Developer
         </p>
         <img src={mjHeadShot} alt="a picture of MJ" className="intro__img" />
       </section>
@@ -82,15 +82,19 @@ export default function Introduction() {
       <section className="about-me">
         <h2 className="section__title section__title--about">Who I am</h2>
         <p className="section__subtitle section__subtitle--about">
-          Front-End Developer and martial artist from Berkshire, U.K.
+          Frontend React Developer and martial artist from Berkshire, U.K.
         </p>
 
         <div>
           <p>
-            I&apos;m a Front-End React Developer based out of Berkshire, UK. My
+            I&apos;m a Frontend React Developer based out of Berkshire, UK. My
             specialities include React JS, JavaScript, CSS and HTML. My focus is
             on developing user-friendly web applications with a strong emphasis
-            on responsiveness.
+            on responsiveness. I&apos;m highly poised, solutions-orientated and
+            dedicated with a strong education in design principles and
+            programming languages. Looking for a position in a fast-paced
+            company that appreciates hard work, dedication and evolving
+            technical skills.
           </p>
           <p>
             I&apos;m passionate, self-motivated and eager to learn and develop.
@@ -98,9 +102,9 @@ export default function Introduction() {
           <p>
             I was a London Fire-Fighter for 14 years and also a plumber,
             carrying out heating and gas work. I have an Associate in
-            Specialised Technology degree in Personal Computer and Network
+            Specialised Technology Degree in Personal Computer and Network
             Technology from Allentown Business School. I&apos;m a purple belt in
-            Brazilian Jiu-Jitsu and a wrestler.
+            Brazilian Jiu-Jitsu, a wrestler and have coached kids in both.
           </p>
         </div>
 

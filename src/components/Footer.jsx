@@ -10,7 +10,7 @@ export default function Footer(){
               className="social-list__link"
               target="_blank"
               rel="noreferrer"
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/mjlearn13/"
             >
               <i className="fab fa-linkedin"></i>
             </a>
