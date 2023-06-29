@@ -79,7 +79,7 @@ export default [
     image: notesApp,
     type: 'React',
     github: 'https://github.com/mjlearn13/notes-app.git',
-    desc: 'Notes is a Mark Down version of a Apple Notes clone.  We can toggle between preview and write.  The app implements the react-mde package for the editor.',
+    desc: 'Notes is a Markdown version of a Apple Notes clone.  We can toggle between preview and write.  The app implements the react-mde package for the editor.',
     topics: [
       'HTML5',
       'CSS',
