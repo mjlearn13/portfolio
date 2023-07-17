@@ -364,7 +364,7 @@ nav a:focus {
 
 .my-services {
     background-color: var(--color-dark);
-    background-image: url(./assets/services-bg7.jpg);
+    background-image: url(./assets/services-bg-small.jpg);
     background-size: cover;
     color: var(--color-light);
     text-align: center;
@@ -395,6 +395,13 @@ nav a:focus {
     margin: 0 auto 2em;
 }
 
+@media (min-width: 500px) {
+    .my-services {
+        background-image: url(./assets/services-bg-medium.jpg);
+        background-size: cover;
+    }
+}
+
 @media (min-width: 800px) {
     .services {
         display: flex;
@@ -410,7 +417,14 @@ nav a:focus {
     .service {
         margin-bottom: 0;
     }
+
+    .my-services {
+        background-image: url(./assets/services-bg-large.jpg);
+        background-size: cover;
+    }
 }
+
+
 
 
 /* My Work */
