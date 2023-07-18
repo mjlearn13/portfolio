@@ -11,6 +11,7 @@ export default function Footer(){
               target="_blank"
               rel="noreferrer"
               href="https://www.linkedin.com/in/mjlearn13/"
+              aria-label="Go to mjlearn13 Linkedin account"
             >
               <i className="fab fa-linkedin"></i>
             </a>
@@ -21,6 +22,7 @@ export default function Footer(){
               target="_blank"
               rel="noreferrer"
               href="https://github.com/mjlearn13"
+              aria-label="Go to mjlearn13 Github account"
             >
               <i className="fab fa-github"></i>
             </a>
